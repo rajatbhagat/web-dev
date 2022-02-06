@@ -59,6 +59,7 @@
 }
 
 .wd-post {
+    max-height: 150px;
 }
 
 .wd-post-name {
@@ -73,5 +74,16 @@
 .wd-post-tweets {
     font-size: 13px;
     color: rgb(110, 118, 125);
+}
+
+.wd-tuit-small-img {
+    border-radius: 10px;
+    max-height: 100px;
+    max-width: 100px;
+    float: right;
+}
+
+.wd-post-author {
+    color: white;
 }
 
