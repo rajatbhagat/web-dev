@@ -37,7 +37,16 @@
 .wd-links-to-tabs a {
     display: inline;
     color: white;
-    /*padding: 20px;*/
     justify-content: space-around;
+}
+.wd-link-nav{
+    display: block;
+    overflow: auto;
+    padding: 10px;
+}
+.wd-link-nav a{
+    float:left;
+    text-align:center;
+    width:15%;
 }
 
