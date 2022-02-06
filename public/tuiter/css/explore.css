@@ -1,52 +1,77 @@
-.wd-general-style{
+.wd-general-style {
     background-color: black;
 }
-.wd-search-box-settings{
+
+.wd-search-box-settings {
     width: 100%;
     display: inline-flex;
 
 }
-.wd-main-div{
+
+.wd-main-div {
     width: 100%;
 }
+
 .wd-search-box {
     padding: 10px;
     width: 100%;
     display: inline-flex;
 }
+
 .wd-search-box #search-text-box {
     border-radius: 50px;
-    border-width: 2px;
-    padding: 10px;
     width: 100%;
-    color: #282c34;
+    background: darkgray;
+    color: white;
 }
-.wd-settings-img{
-    height: 40px;
-    width: 40px;
+
+.wd-settings-img {
+    height: 30px;
+    width: 30px;
     padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
+    padding-right: 12px;
+    padding-top: 15px;
 }
+
 .wd-links-to-tabs {
     display: inline;
     color: white;
-    /*justify-content: space-evenly;*/
     width: 100%;
 }
+
 .wd-links-to-tabs a {
     display: inline;
     color: white;
     justify-content: space-around;
 }
-.wd-link-nav{
+
+.wd-link-nav {
     display: block;
     overflow: auto;
-    padding: 10px;
+    padding: 16px;
 }
-.wd-link-nav a{
-    float:left;
-    text-align:center;
-    width:15%;
+
+.wd-link-nav a {
+    float: left;
+    text-align: center;
+    width: 15%;
+    font-size: 15px;
+}
+
+.wd-post {
+}
+
+.wd-post-name {
+    color: white;
+}
+
+.wd-post-title {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-post-tweets {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
 }
 
