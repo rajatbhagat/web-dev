@@ -1,0 +1,43 @@
+.wd-general-style{
+    background-color: black;
+}
+.wd-search-box-settings{
+    width: 100%;
+    display: inline-flex;
+
+}
+.wd-main-div{
+    width: 100%;
+}
+.wd-search-box {
+    padding: 10px;
+    width: 100%;
+    display: inline-flex;
+}
+.wd-search-box #search-text-box {
+    border-radius: 50px;
+    border-width: 2px;
+    padding: 10px;
+    width: 100%;
+    color: #282c34;
+}
+.wd-settings-img{
+    height: 40px;
+    width: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.wd-links-to-tabs {
+    display: inline;
+    color: white;
+    /*justify-content: space-evenly;*/
+    width: 100%;
+}
+.wd-links-to-tabs a {
+    display: inline;
+    color: white;
+    /*padding: 20px;*/
+    justify-content: space-around;
+}
+
