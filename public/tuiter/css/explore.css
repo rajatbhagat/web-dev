@@ -60,6 +60,7 @@
 
 .wd-post {
     max-height: 150px;
+    width: 100%;
 }
 
 .wd-post-name {
@@ -81,9 +82,14 @@
     max-height: 100px;
     max-width: 100px;
     float: right;
+    margin-right:16px;
 }
 
 .wd-post-author {
     color: white;
+}
+.wd-post-topic {
+    font-size: 13px;
+    color: lightgray;
 }
 
