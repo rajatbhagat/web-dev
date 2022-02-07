@@ -42,7 +42,6 @@
 .wd-links-to-tabs a {
     display: inline;
     color: white;
-    justify-content: space-around;
 }
 
 .wd-link-nav {
@@ -82,14 +81,23 @@
     max-height: 100px;
     max-width: 100px;
     float: right;
-    margin-right:16px;
+    margin-right: 16px;
 }
 
 .wd-post-author {
     color: white;
 }
+
 .wd-post-topic {
     font-size: 13px;
     color: lightgray;
+}
+
+hr#for-you {
+    color: rgb(29, 161, 242);
+}
+
+hr {
+    color: rgb(47, 51, 54);
 }
 
