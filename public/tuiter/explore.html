@@ -1,44 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Explore</title>
-    <link href="css/explore.css" rel="stylesheet"/>
+    <link href="css/explore.css" rel="stylesheet" />
 </head>
+
 <body class="wd-general-style">
-<div id="main-div">
+    <div id="main-div" class="wd-main-div">
 
-    <!-- The search box starts here   -->
-    <div class="wd-search-box-settings">
-        <div class="wd-search-box" id="div-search-box">
-            <input class="wd-search-box" id="search-text-box" placeholder="Search Tuiter"
-                   type="text"/>
+        <!-- The search box starts here   -->
+        <div class="wd-search-box-settings">
+            <div class="wd-search-box" id="div-search-box">
+                <input class="wd-search-box" id="search-text-box" placeholder="Search Tuiter" type="text" />
+            </div>
+            <div>
+                <p>
+                    <a href="explore-settings.html"><img class="wd-settings-img" id="settings-img"
+                            src="images/settings.png"></a>
+            </div>
         </div>
-        <div>
-            <a href="explore-settings.html"><img class="wd-settings-img" id="settings-img"
-                                                 src="images/settings.png"></a>
+        <!-- The search box starts here   -->
+
+        <!-- The links starts here   -->
+        <div class="wd-main-link">
+            <div id="links-to-diff-tabs" style="display: inline; padding: 5px;" class="wd-links-to-tabs">
+                <a class="wd-for-you-link" href="#foryou">For You</a>
+                <a class="wd-links-to-other-tabs" href="#trending" style="color: rgb( 110, 118, 125)">Trending</a>
+                <a class="wd-links-to-other-tabs" href="#covid19" style="color: rgb( 110, 118, 125)">COVID-19</a>
+                <a class="wd-links-to-other-tabs" href="#news" style="color: rgb( 110, 118, 125)">News</a>
+                <a class="wd-links-to-other-tabs" href="#sports" style="color: rgb( 110, 118, 125)">Sports</a>
+                <a class="wd-links-to-other-tabs" href="#entertainment"
+                    style="color: rgb( 110, 118, 125)">Entertainment</a>
+            </div>
         </div>
-    </div>
-    <!-- The search box starts here   -->
-
-    <!-- The links starts here   -->
-    <div class="wd-links-to-tabs" id="links-to-diff-tabs">
-        <nav class="wd-link-nav" id="link-nav">
-            <a href="#" style="color: rgb(29,161,242)">For You
-                <hr id="for-you"/>
-            </a>
-            <a href="#" style="color: rgb( 110, 118, 125)">Trending</a>
-            <a href="#" style="color: rgb( 110, 118, 125)">COVID-19</a>
-            <a href="#" style="color: rgb( 110, 118, 125)">News</a>
-            <a href="#" style="color: rgb( 110, 118, 125)">Sports</a>
-            <a href="#" style="color: rgb( 110, 118, 125)">Entertainment</a>
-        </nav>
-    </div>
-    <!-- The links ends here   -->
-
-    <!-- The list of posts starts ends here   -->
-    <div>
-        <hr style="color: rgb( 110, 118, 125)"/>
+        <!-- The links ends here   -->
+        <!-- The list of posts starts ends here   -->
+        <!-- <div> -->
         <div class="wd-post" id="trending-in-science-post">
             <!--This is the topic-->
             <div class="wd-post-title" id="science-title">
@@ -53,10 +52,10 @@
                 <p style="padding: 0; margin: 0;">55.5k Tweets</p>
             </div>
         </div>
-    </div>
-    <!-- The list of posts starts ends here   -->
-    <div>
-        <hr style="color: rgb( 110, 118, 125)"/>
+        <!-- </div> -->
+
+        <!-- The list of posts starts ends here   -->
+        <!-- <div> -->
         <div class="wd-post" id="trending-in-sports-post">
             <!--This is the topic-->
             <div class="wd-post-title" id="sports-title">
@@ -71,66 +70,72 @@
                 <p style="padding: 0; margin: 0;">5,218 Tweets</p>
             </div>
         </div>
-    </div>
-    <!-- The list of posts starts ends here   -->
-    <div>
-        <hr style="color: rgb( 110, 118, 125)"/>
-        <div style="display: inline-flex; width: 100%">
-            <div class="wd-post" id="ny-times-post">
-                <!--This is the author-->
-                <div class="wd-post-author" id="post-author">
-                    <p style="padding: 0; margin: 0;">The New York Times</p>
+        <!-- </div> -->
+
+        <!-- The list of posts starts ends here   -->
+        <div class="wd-post-with-img">
+            <div style="display: inline-flex; width: 100%">
+                <div class="wd-post-with-img-text" id="ny-times-post">
+                    <!--This is the author-->
+                    <div class="wd-post-author" id="post-author">
+                        <img src="images/logo-eg.png" style="width : 15px; height: 15px" />
+                        <p style="padding: 0; margin: 0;">The New York Times</p>
+                        <img src="images/twitter-verified-badge.svg" style="width : 15px; height: 15px" />
+                        <p>Yesterday</p>
+                    </div>
+                    <!--            This is the title-->
+                    <div class="wd-post-name" id="post-name">
+                        <p style="padding: 0; margin: 0;">CNN's Conundrum</p>
+                    </div>
                 </div>
-                <!--            This is the title-->
-                <div class="wd-post-name" id="post-name">
-                    <p style="padding: 0; margin: 0;">CNN's Conundrum</p>
+                <div style="float: right">
+                    <img class="wd-tuit-small-img" src="images/calvin_hobb_post.jpeg" />
                 </div>
-            </div>
-            <div style="float: right">
-                <img class="wd-tuit-small-img" src="images/calvin_hobb_post.jpeg"/>
             </div>
         </div>
-    </div>
-    <!-- The list of posts starts ends here   -->
-    <div>
-        <hr style="color: rgb( 110, 118, 125)"/>
-        <div style="display: inline-flex; width: 100%">
-            <div class="wd-post" id="covid-19-post">
-                <!--This is the author-->
-                <div class="wd-post-topic" id="covid-19-post-topic">
-                    <p style="padding: 0; margin: 0;">COVID-19 Live</p>
+
+        <!-- The list of posts starts ends here   -->
+        <div class="wd-post-with-img">
+            <div style="display: inline-flex; width: 100%">
+                <div class="wd-post-with-img-text" id="covid-19-post">
+                    <!--This is the author-->
+                    <div class="wd-post-topic" id="covid-19-post-topic">
+                        <p style="padding: 0; margin: 0;">COVID-19 Live</p>
+                    </div>
+                    <!--            This is the title-->
+                    <div class="wd-post-name" id="covid-19-post-name">
+                        <p style="padding: 0; margin: 0;">COVID-19 News and Updates</p>
+                    </div>
                 </div>
-                <!--            This is the title-->
-                <div class="wd-post-name" id="covid-19-post-name">
-                    <p style="padding: 0; margin: 0;">COVID-19 News and Updates</p>
+                <div style="float: right">
+                    <img class="wd-tuit-small-img" src="images/calvin_scary.webp" />
                 </div>
-            </div>
-            <div style="float: right">
-                <img class="wd-tuit-small-img" src="images/calvin_scary.webp"/>
             </div>
         </div>
-    </div>
-    <div>
-        <hr style="color: rgb( 110, 118, 125)"/>
-        <div style="display: inline-flex; width: 100%">
-            <div class="wd-post" id="bloomberg-times-post">
-                <!--This is the author-->
-                <div class="wd-post-author" id="bloomberg-post-author">
-                    <p style="padding: 0; margin: 0;">Bloomberg News</p>
+
+        <div class="wd-post-with-img">
+            <div style="display: inline-flex; width: 100%">
+                <div class="wd-post-with-img-text" id="bloomberg-times-post">
+                    <!--This is the author-->
+                    <div class="wd-post-author" id="bloomberg-post-author">
+                        <img src="images/logo-eg.png" style="width : 15px; height: 15px" />
+                        <p style="padding: 0; margin: 0;">Bloomberg News</p>
+                        <img src="images/twitter-verified-badge.svg" style="width : 15px; height: 15px" />
+                        <p style="color: rgb( 110, 118, 125);">Yesterday</p>
+                    </div>
+                    <!--            This is the title-->
+                    <div class="wd-post-name" id="bloomberg-post-name">
+                        <p style="padding: 0; margin: 0;">Get vaccinated!! If already done then get a booster!!</p>
+                    </div>
                 </div>
-                <!--            This is the title-->
-                <div class="wd-post-name" id="bloomberg-post-name">
-                    <p style="padding: 0; margin: 0;">Get vaccinated!! If already done then get a booster!!</p>
+                <div style="float: right">
+                    <img class="wd-tuit-small-img" src="images/calvin_cute.jpeg" />
                 </div>
-            </div>
-            <div style="float: right">
-                <img class="wd-tuit-small-img" src="images/calvin_cute.jpeg"/>
             </div>
         </div>
-    </div>
-    <!-- The list of posts starts ends here   -->
-    <div>
-        <hr style="color: rgb( 110, 118, 125)"/>
+
+        <!-- The list of posts starts ends here   -->
+        <!-- <div> -->
         <div class="wd-post" id="trending-in-us-post">
             <!--This is the topic-->
             <div class="wd-post-title" id="us-title">
@@ -145,8 +150,9 @@
                 <p style="padding: 0; margin: 0;">1,259 Tweets</p>
             </div>
         </div>
+        <!-- </div> -->
+
     </div>
-    <hr style="color: rgb( 110, 118, 125)"/>
-</div>
 </body>
+
 </html>
