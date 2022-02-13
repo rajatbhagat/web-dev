@@ -10,11 +10,15 @@
 }
 
 .wd-main-link {
+    height: 15px;
     width: 100%;
+    padding-bottom: 10px;
 }
 
 .wd-main-div {
     width: 100%;
+    padding: 5px;
+    margin: 5px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -42,25 +46,28 @@
 .wd-links-to-tabs {
     display: block;
     overflow: auto;
-    border-bottom-style: solid;
+    padding-left: 16px;
+    padding-bottom: 3px;
+    /* border-bottom-style: solid;
     border-bottom-color: rgb( 110, 118, 125) ;
     border-bottom-width: 3px;
-    width: 100%;
+    width: 100%; */
 
 }
 
 .wd-for-you-link {
     border-bottom-style: solid;
-    border-bottom-width: 5px;
+    border-bottom-width: 10px;
     border-bottom-color: rgb(29,161,242);
     color: rgb(29,161,242);
     padding-right: 16px;
+    padding-top: 10px;
     text-decoration: none;
     text-align: center;
 }
 
 .wd-links-to-other-tabs {
-    color: white;
+    color: rgb( 110, 118, 125);
     text-decoration: none;
     padding-right: 16px;
     /* border-bottom-style: solid;
@@ -75,6 +82,7 @@
     width: 100%;
     height: 60px;
     padding: 5px;
+    padding-right: 15px;
     border-bottom-style: solid;
     border-bottom-color:rgb(47, 51, 54);
     border-bottom-width: 2px;
