@@ -2,6 +2,11 @@
     background-color: black;
 }
 
+hr {
+    color: rgb(47, 51, 54);
+}
+
+
 .wd-search-box-settings {
     width: 100%;
     display: inline-flex;
@@ -10,6 +15,7 @@
 
 .wd-main-div {
     width: 100%;
+    font-family: serif;
 }
 
 .wd-search-box {
@@ -37,17 +43,24 @@
     display: inline;
     color: white;
     width: 100%;
+
 }
 
 .wd-links-to-tabs a {
     display: inline;
     color: white;
+    text-decoration: none;
 }
 
 .wd-link-nav {
     display: block;
     overflow: auto;
     padding: 16px;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 5px rgb(47, 51, 54);
 }
 
 .wd-link-nav a {
@@ -60,6 +73,7 @@
 .wd-post {
     max-height: 150px;
     width: 100%;
+    height: 60px;
 }
 
 .wd-post-name {
@@ -97,7 +111,4 @@ hr#for-you {
     color: rgb(29, 161, 242);
 }
 
-hr {
-    color: rgb(47, 51, 54);
-}
 
