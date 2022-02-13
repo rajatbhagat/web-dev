@@ -2,6 +2,7 @@
     color: white;
     font-size: 20px;
     padding-left: 16px;
+    height: 100%;
 }
 
 .wd-bookmarks-box {
@@ -9,6 +10,7 @@
     border-color: rgb(47, 51, 54);
     border-width: 2px;
     border-radius: 10px;
+    min-height: 100%;
 }
 
 .wd-bookmarks-handle {
@@ -31,6 +33,7 @@ img#profile-img {
 .wd-bookmark-profile-post {
     padding-left: 16px;
     display: inline-flex;
+    height: 100%;
 }
 
 p#profile-author-name {
@@ -54,6 +57,16 @@ p#profile-author-handle {
     margin-top: -30px;
     color: white;
 }
+.wd-single-post {
+    /* width: 504px; */
+    margin-top: 12px;
+    /* height: 264px; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(47, 51, 54);
+}
 
 .wd-post-image {
     margin-left: 75px;
@@ -70,9 +83,9 @@ p#profile-author-handle {
     height: 264px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    border-bottom-style: solid;
+    /* border-bottom-style: solid;
     border-bottom-width: 1px;
-    border-bottom-color: rgb(47, 51, 54);
+    border-bottom-color: rgb(47, 51, 54); */
 }
 
 img#post-img-1 {
@@ -96,4 +109,19 @@ p#post-text-content-1 {
     width: 504px;
     margin-top: -10px;
     color: lightgray;
+}
+
+.wd-icons-for-tuiter {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 490px;
+    margin-left: 85px;
+    margin-top: 12px;
+    color: rgb(47, 51, 54);
+
+}
+
+.wd-single-icon {
+    display: inline-flex;
+    font-size: 20px;
 }
