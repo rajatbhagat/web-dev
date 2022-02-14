@@ -277,7 +277,7 @@
     border-width: 5px;
     border-color: black;
     border-style: solid;
-    display: flex
+    display: flex;
     background-color: blueviolet;
 }
 .rb-flex-container-justify-center {
