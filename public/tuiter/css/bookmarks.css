@@ -14,7 +14,7 @@
 }
 
 .wd-bookmarks-handle {
-    color: lightgray;
+    color: rgb(47, 51, 54);
     font-size: 13px;
     margin-top: -18px;
     padding-left: 16px;
@@ -44,7 +44,7 @@ p#profile-author-name {
 
 p#profile-author-handle {
     padding-left: 12px;
-    color: lightgray;
+    color: rgb(47, 51, 54);
     font-size: 15px;
 }
 
@@ -108,7 +108,7 @@ p#post-text-content-1 {
     font-size: 15px;
     width: 504px;
     margin-top: -10px;
-    color: lightgray;
+    color: rgb(47, 51, 54);
 }
 
 .wd-icons-for-tuiter {
