@@ -1,6 +1,6 @@
 .wd-general-style {
     background-color: black;
-    
+
 }
 
 .wd-search-box-settings {
@@ -17,7 +17,7 @@
 
 .wd-main-div {
     border-style: solid;
-    border-width: 2px;
+    border-width: 1px;
     border-radius: 10px;
     border-color: rgb( 110, 118, 125);
     font-family: Arial, Helvetica, sans-serif;
@@ -79,10 +79,8 @@
 .wd-post {
     max-height: 150px;
     height: 60px;
-    padding: 5px;
-    margin-left: 5px;
-    padding-top: 10px;
-    /* padding-right: 15px; */
+    padding-left: 16px;
+    padding-top: 5px;
     border-top-style: solid;
     border-top-color: rgb(47, 51, 54);
     border-top-width: 2px;
@@ -110,14 +108,17 @@
     max-height: 150px;
     width: 100%;
     height: 60px;
-    padding: 5px;
+    padding-top: 5px;
     
 }
 
 .wd-post-with-img {
     max-height: 150px;
     height: 100px;
-    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 16px;
+    padding-right: 16px;
     border-top-style: solid;
     border-top-color: rgb(47, 51, 54);
     border-top-width: 2px;
