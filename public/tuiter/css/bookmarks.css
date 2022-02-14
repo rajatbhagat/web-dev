@@ -125,3 +125,14 @@ p#post-text-content-1 {
     display: inline-flex;
     font-size: 20px;
 }
+
+.wd-icon-values-style {
+    color: rgb(47, 51, 54); 
+    padding-left: 10px; 
+    font-size: 18px
+}
+.wd-icon-values-style-like {
+    color: red; 
+    padding-left: 10px; 
+    font-size: 18px
+}
