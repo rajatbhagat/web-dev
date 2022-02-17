@@ -1,0 +1,12 @@
+.bg-color-yellow {
+    background-color: yellow;
+}
+.bg-color-red {
+    background-color: rgb(221, 73, 73);
+}
+.bg-color-blue {
+    background-color: mediumslateblue;
+}
+.fg-color-white {
+    color: white;
+}
