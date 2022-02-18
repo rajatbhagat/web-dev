@@ -3,8 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <title>Explore</title>
+    <link href="../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/explore.css" rel="stylesheet">
+    <link href="../vendors/fontawesome/css/all.css" rel="stylesheet">
+    <link href="../vendors/fontawesome/css/brands.min.css" rel="stylesheet">
 </head>
 <body>
-
+<div class="container main-margin">
+    <div class="row">
+        <div class="col col-xxl-2 col-xl-2 col-lg-2">
+            <div class="list-group">
+                <a aria-current="true" class="list-group-item list-group-item-action">
+                    <i class="fab fa-twitter float-start padding-top"></i>
+                </a>
+                <a class="list-group-item list-group-item-action">
+                    <i class="fa fa-home float-start padding-top" style="padding-right: 5px"></i>
+                    Home</a>
+                <a class="list-group-item list-group-item-action active">
+                    <i class="fa fa-hashtag float-start padding-top" style="padding-right: 5px"></i>
+                    Explore</a>
+                <a class="list-group-item list-group-item-action">
+                    <i class="fa fa-bell float-start padding-top" style="padding-right: 5px"></i>
+                    Notifications</a>
+                <a class="list-group-item list-group-item-action">
+                    <i class="fa fa-envelope float-start padding-top"
+                       style="padding-right: 5px"></i> Messages</a>
+                <a class="list-group-item list-group-item-action">
+                    <i class="fa fa-bookmark float-start padding-top"
+                       style="padding-right: 5px"></i> Bookmarks</a>
+                <a class="list-group-item list-group-item-action">
+                    <i class="fa fa-list float-start padding-top" style="padding-right: 5px"></i>
+                    List</a>
+                <a class="list-group-item list-group-item-action">
+                    <i class="fa fa-user float-start padding-top" style="padding-right: 5px"></i>
+                    Profile</a>
+                <a class="list-group-item list-group-item-action">
+                    <span class="fa-stack fa-1x float-start" style="margin-left: -13px">
+                        <i class="fas fa-circle fa-stack-1x float-start" style="font-size: 20px"></i>
+                        <i class="fas fa-ellipsis-h fa-stack-1x fa-inverse"></i>
+                    </span> More</a>
+            </div>
+        </div>
+        <div class="col col-xxl-8 col-xl-8 col-lg-8">
+            <input class="rounded-corners fill-width-search-bar border-1"
+                   placeholder="Search Tuiter" type="text"/>
+            <i class="fa fa-cog float-end padding-top icon-size"></i>
+            <ul class="nav nav-tabs padding-top">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">For You</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Trending</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sports</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Entertainment</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col col-xxl-2 col-xl-2 col-lg-2">
+            <input class="rounded-corners" type="text"
+                   value="This is where the follow thing will come"/>
+        </div>
+    </div>
+</div>
 </body>
 </html>

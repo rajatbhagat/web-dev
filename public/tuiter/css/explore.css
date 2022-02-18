@@ -1,0 +1,18 @@
+.rounded-corners {
+    border-radius: 20px;
+}
+.inline-display {
+    display: inline-flex;
+}
+.fill-width-search-bar{
+    width: 95%;
+}
+.padding-top {
+    padding-top: 5px;
+}
+.icon-size {
+    font-size: 24px;
+}
+.main-margin {
+    margin: 10px
+}
