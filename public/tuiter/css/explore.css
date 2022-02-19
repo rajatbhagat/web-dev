@@ -41,8 +41,15 @@ input {
 
 .follow-btn {
     border-radius: 15px;
+    width: 60px;
+    height: 30px;
+    text-align: start;
+    font-size: 12px
+}
+.tuit-btn {
+    border-radius: 15px;
     width: 50px;
-    height: 24px;
+    height: 30px;
     text-align: start;
     font-size: 12px
 }
@@ -52,16 +59,16 @@ input {
     font-size: 10px
 }
 
-/*.icon-inside {*/
-/*    position: absolute;*/
-/*    left: 10px;*/
-/*    top: calc(50% - 12px);*/
-/*    pointer-events: none;*/
-/*    font-size: 16px;*/
-/*    font-size: 1.125rem;*/
-/*    color: #c4c3c3;*/
-/*    z-index:3;*/
-/*}*/
+.icon-inside {
+    position: absolute;
+    left: 10px;
+    top: calc(50% - 12px);
+    pointer-events: none;
+    font-size: 16px;
+    font-size: 1.125rem;
+    color: #c4c3c3;
+    z-index:3;
+}
 .post-below-img {
     padding: 5px;
     display: inline-flex;
