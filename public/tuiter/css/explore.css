@@ -7,6 +7,7 @@
 }
 
 .fill-width-search-bar {
+    text-indent: 28px;
     width: 95%;
 }
 
@@ -14,12 +15,16 @@
     padding-top: 5px;
 }
 
-.icon-size {
-    font-size: 24px;
+.group-input-icon {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%
 }
 
-input {
-    text-indent: 20px;
+.icon-size {
+    font-size: 24px;
 }
 
 .main-margin {
@@ -46,6 +51,7 @@ input {
     text-align: start;
     font-size: 12px
 }
+
 .tuit-btn {
     border-radius: 15px;
     width: 50px;
@@ -62,13 +68,11 @@ input {
 .icon-inside {
     position: absolute;
     left: 10px;
-    top: calc(50% - 12px);
-    pointer-events: none;
-    font-size: 16px;
-    font-size: 1.125rem;
-    color: #c4c3c3;
-    z-index:3;
+    top: 5px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
 }
+
 .post-below-img {
     padding: 5px;
     display: inline-flex;
@@ -143,9 +147,11 @@ input {
     width: 60px;
     height: 60px
 }
+
 .follow-topic {
     font-size: 14px;
 }
+
 .follow-author {
     font-size: 12px;
 }
