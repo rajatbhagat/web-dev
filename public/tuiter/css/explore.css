@@ -34,8 +34,8 @@ input {
 }
 
 .follow-img {
-    width: 36px;
-    height: 36px;
+    width: 44px;
+    height: 44px;
     margin-right: 5px
 }
 
@@ -143,3 +143,10 @@ input {
     width: 60px;
     height: 60px
 }
+.follow-topic {
+    font-size: 14px;
+}
+.follow-author {
+    font-size: 12px;
+}
+
