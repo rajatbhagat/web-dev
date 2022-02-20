@@ -57,13 +57,13 @@
     font-size: 24px;
 }
 
-.main-margin {
-    margin: 10px;
+.font-family-setter {
+    margin:10px;
     font-family: Arial;
 }
 
-.font-color-white {
-    color: white;
+.font-color-light-gray {
+    color: #6c757d;
 }
 
 .dark-background {
@@ -86,10 +86,12 @@
 .follow-img {
     width: 44px;
     height: 44px;
-    margin-right: 5px
+    margin-right: 5px;
+    border-radius: 20px;
 }
 
 .follow-btn {
+
     border-radius: 15px;
     width: 60px;
     height: 30px;
@@ -202,8 +204,9 @@
 
 .post-small-img {
     float: right;
-    width: 60px;
-    height: 60px
+    border-radius: 10px;
+    width: 100px;
+    height: 100px
 }
 
 .follow-topic {
