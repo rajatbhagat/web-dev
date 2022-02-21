@@ -183,23 +183,27 @@
 
 .post-topic {
     margin: 0;
-    font-size: 12px
+    font-size: 12px;
+    padding-right: 10px;
 }
 
 .post-title {
     margin: 0;
-    font-size: 14px
+    font-size: 14px;
+    padding-right: 10px;
 }
 
 .post-description {
     margin: 0;
-    font-size: 14px
+    font-size: 14px;
+    padding-right: 10px;
 }
 
 .post-small-img-container {
     float: right;
     width: 100%;
-    padding: 10px
+    padding: 10px;
+    padding-right: 0;
 }
 
 .post-small-img {
