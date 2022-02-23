@@ -73,7 +73,7 @@
 .wd-border-bottom-links {
     border-bottom-style: solid;
     border-bottom-color: #0b5ed7;
-    border-width: 3px;
+    border-width: 5px;
     padding-bottom: 3px;
 }
 
@@ -189,13 +189,13 @@
 
 .wd-post-title {
     margin: 0;
-    font-size: 14px;
+    font-size: normal;
     padding-right: 10px;
 }
 
 .wd-post-description {
     margin: 0;
-    font-size: 14px;
+    font-size: normal;
     padding-right: 10px;
 }
 
