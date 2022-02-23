@@ -1,50 +1,50 @@
-.rounded-corners {
+.wd-rounded-corners {
     border-radius: 12px;
 }
 
-.rounded-corners-search {
+.wd-rounded-corners-search {
     border-radius: 18px;
 }
 
-.search-bar-icon-color {
+.wd-search-bar-icon-color {
     color: #4f5050;
 }
 
-.dark-gray-color {
+.wd-dark-gray-color {
     background-color: #1c1f23;
     /*background-color: #1e2125;*/
 }
 
-.border-between-cols {
+.wd-border-between-cols {
     border-right: 1px solid;
     border-right-color: #4f5050
 }
 
-.show-more-text {
+.wd-show-more-text {
     color: #0c63e4;
     font-size: 14px;
 }
 
-.tabs-links {
+.wd-tabs-links {
     font-size: 15px;
     margin-top: 10px;
     color: #4f5050;
 }
 
-.inline-display {
+.wd-inline-display {
     display: inline-flex;
 }
 
-.fill-width-search-bar {
+.wd-fill-width-search-bar {
     text-indent: 28px;
     width: 95%;
 }
 
-.padding-top {
+.wd-padding-top {
     padding-top: 5px;
 }
 
-.group-input-icon {
+.wd-group-input-icon {
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -52,45 +52,45 @@
     width: 100%
 }
 
-.icon-size {
+.wd-icon-size {
     padding-top: 5px;
     font-size: 24px;
 }
 
-.font-family-setter {
+.wd-font-family-setter {
     margin:10px;
     font-family: Arial;
 }
 
-.font-color-light-gray {
+.wd-font-color-light-gray {
     color: #6c757d;
 }
 
-.dark-background {
+.wd-dark-background {
     background-color: black;
 }
 
-.border-bottom-links {
+.wd-border-bottom-links {
     border-bottom-style: solid;
     border-bottom-color: #0b5ed7;
     border-width: 3px;
     padding-bottom: 3px;
 }
 
-.display-flex-col {
+.wd-display-flex-col {
     display: flex;
     flex-direction: column;
     margin-top: 5px;
 }
 
-.follow-img {
+.wd-follow-img {
     width: 44px;
     height: 44px;
     margin-right: 5px;
     border-radius: 20px;
 }
 
-.follow-btn {
+.wd-follow-btn {
 
     border-radius: 15px;
     width: 60px;
@@ -99,7 +99,7 @@
     font-size: 12px
 }
 
-.tuit-btn {
+.wd-tuit-btn {
     border-radius: 15px;
     width: 50px;
     height: 30px;
@@ -108,12 +108,12 @@
     width: 80%;
 }
 
-.handle-text {
+.wd-handle-text {
     margin-top: 0;
     font-size: 10px
 }
 
-.icon-inside {
+.wd-icon-inside {
     position: absolute;
     left: 10px;
     top: 5px;
@@ -123,57 +123,57 @@
     border-bottom-left-radius: 12px;
 }
 
-.post-below-img {
+.wd-post-below-img {
     padding: 5px;
     display: inline-flex;
     width: 100%
 }
 
-.padding-cols-0 {
+.wd-padding-cols-0 {
     padding: 0;
 }
 
-.center-post-section {
+.wd-center-post-section {
     /*margin-top: 10px;*/
 
 }
 
-.center-section-border {
+.wd-center-section-border {
     border-top: 1px solid;
     border-color: #4f5050;
 }
 
-.center-section-last-post-border {
+.wd-center-section-last-post-border {
     border-bottom: 1px solid;
     border-color: #4f5050;
 }
 
-.center-img-container {
+.wd-center-img-container {
     width: 100%;
     position: relative
 }
 
-.occupy-all-width {
+.wd-occupy-all-width {
     width: 100%;
 }
 
-.right-padding {
+.wd-right-padding {
     padding-right: 5px;
 }
 
-.more-icon-size {
+.wd-more-icon-size {
     font-size: 20px
 }
 
-.negative-margin-more-icon {
+.wd-negative-margin-more-icon {
     margin-left: -13px
 }
 
-.zero-margin {
+.wd-zero-margin {
     margin: 0px;
 }
 
-.txt-over-img {
+.wd-txt-over-img {
     color: white;
     position: absolute;
     bottom: 4px;
@@ -181,43 +181,43 @@
     font-size: 28px
 }
 
-.post-topic {
+.wd-post-topic {
     margin: 0;
     font-size: 12px;
     padding-right: 10px;
 }
 
-.post-title {
+.wd-post-title {
     margin: 0;
     font-size: 14px;
     padding-right: 10px;
 }
 
-.post-description {
+.wd-post-description {
     margin: 0;
     font-size: 14px;
     padding-right: 10px;
 }
 
-.post-small-img-container {
+.wd-post-small-img-container {
     float: right;
     width: 100%;
     padding: 10px;
     padding-right: 0;
 }
 
-.post-small-img {
+.wd-post-small-img {
     float: right;
     border-radius: 10px;
     width: 100px;
     height: 100px
 }
 
-.follow-topic {
+.wd-follow-topic {
     font-size: 14px;
 }
 
-.follow-author {
+.wd-follow-author {
     font-size: 12px;
 }
 
