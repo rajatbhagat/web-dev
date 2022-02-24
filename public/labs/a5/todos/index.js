@@ -1,5 +1,5 @@
 import TodoList from './ToDoList.js'
-alert('Hello World!');
+// alert('Hello World!');
 
 $('#wd-todo').append(`
     <div class="container">
