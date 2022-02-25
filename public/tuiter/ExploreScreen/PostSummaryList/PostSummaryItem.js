@@ -12,6 +12,9 @@ const PostSummaryItem = (post) => {
                 <div class="row">
                     <strong><p class="wd-post-description text-white">${post.title}</p></strong>
                 </div>
+                <div class="row">
+                    <p class="wd-post-topic wd-font-color-light-gray">${post.tweets}</p>
+                </div>
             </div>
             <div class="col-2 col-xxl-2 col-xl-2 col-lg-2 col-sm-2 col-md-2">
                 <div class="wd-post-small-img-container">
