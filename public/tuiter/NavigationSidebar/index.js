@@ -1,13 +1,14 @@
 const NavigationSidebar = () => {
     return (`
+<div class=""row mt-2>
             <div class="list-group">
                 <a class="list-group-item" href="/">
                     <i class="fab fa-twitter"></i></a>
             <!-- continue the rest of the list -->
-            <a class="list-group-item list-group-item-action bg-black">
+            <a class="list-group-item list-group-item-action bg-black" href="../HomeScreen/homescreen.html">
                     <i class="fa fa-home float-start wd-padding-top wd-right-padding text-white"></i>
-                    <span class="d-none d-lg-block text-white">Home</span></a>
-                <a class="list-group-item list-group-item-action active bg-black">
+                    <span class="d-none d-lg-block text-white" >Home</span></a>
+                <a class="list-group-item list-group-item-action active bg-black" href="../ExploreScreen/explore.html">
                     <i class="fa fa-hashtag float-start wd-padding-top wd-right-padding text-white"></i>
                     <strong><span class="d-none d-lg-block text-white">Explore</span></strong></a>
                 <a class="list-group-item list-group-item-action bg-black">
@@ -35,6 +36,7 @@ const NavigationSidebar = () => {
                 <a href="tweet.html"
                    class="btn btn-primary btn-block rounded-pill">
                     Tweet</a>
+            </div>
             </div>
     `);
 }
