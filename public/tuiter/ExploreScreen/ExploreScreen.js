@@ -5,14 +5,17 @@ import WhoToFollowList from "./WhoToFollowList/WhoToFollowList.js";
 (function ($) {
     $('#wd-explore').append(`
         <div class="row mt-2">
-            <div class="col-2 col-md-2 col-lg-1 col-xl-2">
+            <div class="wd-border-between-cols col-1 col-xxl-2 col-xl-2 col-lg-2 col-md-3 col-sm-2 col-xs-2 wd-padding-cols-0">
                 ${NavigationSidebar()}
             </div>
-                ${ExploreComponent()}
-            <div class="d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
+            <div class="wd-border-between-cols col-11 col-xxl-7 col-xl-7 col-lg-7 col-md-9 col-sm-10 col-xs-10 wd-padding-cols-0">
+                <div>
+                    ${ExploreComponent()}
+                </div>
+            </div>
+            <div class="col col-xxl-3 col-xl-3 col-lg-3 d-none d-lg-block">
                 ${WhoToFollowList()}   
             </div>
         </div>
     `);
 })($);
-

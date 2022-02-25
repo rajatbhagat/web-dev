@@ -7,7 +7,7 @@ const PostSummaryList = () => {
         posts.map(item => {
             return(PostSummaryItem(item))
         }).join('')
-    };
+    }
     `)
 }
 
