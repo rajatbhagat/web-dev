@@ -1,5 +1,5 @@
 import NavigationSidebar from "../NavigationSidebar/index.js";
-import ExploreComponent from "../ExploreScreen/ExploreComponent.js";
+import HomeScreenComponent from "./HomeScreenComponent.js";
 
 (function ($) {
     $('#wd-homescreen').append(`
@@ -7,9 +7,9 @@ import ExploreComponent from "../ExploreScreen/ExploreComponent.js";
             <div class="wd-border-between-cols col-1 col-xxl-2 col-xl-2 col-lg-2 col-md-3 col-sm-2 col-xs-2 wd-padding-cols-0">
                 ${NavigationSidebar()}
             </div>
-            <div class="wd-border-between-cols col-11 col-xxl-7 col-xl-7 col-lg-7 col-md-9 col-sm-10 col-xs-10 wd-padding-cols-0">
+            <div class="wd-border-between-cols col-11 col-xxl-7 col-xl-7 col-lg-7 col-md-9 col-sm-10 col-xs-10">
                 <div>
-                    ${ExploreComponent()}
+                    ${HomeScreenComponent()}
                 </div>
             </div>
         </div>
