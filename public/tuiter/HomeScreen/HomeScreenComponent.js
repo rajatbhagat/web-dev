@@ -15,8 +15,8 @@ const HomeScreenComponent = () => {
                     <span>Amazing Inspiration for something</span>                
                 </div>
                 <div class="row" style="border: 1px solid; border-color: white; border-radius: 20px; width: 100%">
-                    <img src="../images/relspacelogo.jpeg" 
-                    style="border-bottom: 1px solid white; border-top-left-radius: 10px; border-top-right-radius: 10px; width:100%; height: 300px">
+                    <img src="../images/spacexpic.jpeg" 
+                    style="border-bottom: 1px solid white; border-top-left-radius: 20px; border-top-right-radius: 20px; width:100%; height: 300px">
                     <div>
                         <span class="text-white">Countdown: Inspiration4 Mission is on Schedule</span>
                     </div>
@@ -62,8 +62,8 @@ const HomeScreenComponent = () => {
                     <span>Amazing Inspiration for something</span>                
                 </div>
                 <div class="row" style="border: 1px solid; border-color: white; border-radius: 20px; width: 100%">
-                    <img src="../images/relspacelogo.jpeg" 
-                    style="border-bottom: 1px solid white; border-top-left-radius: 10px; border-top-right-radius: 10px; width:100%; height: 300px">
+                    <img src="../images/spacexpic.jpeg" 
+                    style="border-bottom: 1px solid white; border-top-left-radius: 20px; border-top-right-radius: 20px; width:100%; height: 300px">
                     <div>
                         <span class="text-white">Countdown: Inspiration4 Mission is on Schedule</span>
                     </div>
