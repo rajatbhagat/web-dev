@@ -208,9 +208,12 @@
 
 .wd-post-small-img {
     float: right;
-    border-radius: 10px;
-    width: 100px;
-    height: 100px
+    border-radius: 5px;
+    /*width: 100px;*/
+    /*height: 100px;*/
+    max-width: 100%;
+    height: auto;
+    width: auto;
 }
 
 .wd-follow-topic {

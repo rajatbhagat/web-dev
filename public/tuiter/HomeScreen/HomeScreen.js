@@ -5,10 +5,10 @@ import PostSummaryList from "../PostSummaryList/index.js";
 (function ($) {
     $('#wd-homescreen').append(`
         <div class="row">
-            <div class="wd-border-between-cols col-1 col-xxl-2 col-xl-2 col-lg-2 col-md-3 col-sm-2 col-xs-2">
+            <div class="wd-border-between-cols col-1 col-xxl-2 col-xl-2 col-lg-2 col-md-3 col-sm-3 col-xs-3">
                 ${NavigationSidebar()}
             </div>
-            <div class="wd-border-between-cols col-xxl-6 col-xl-6 col-lg-6 col-md-9 col-sm-10 col-xs-10">
+            <div class="wd-border-between-cols col-xxl-6 col-xl-6 col-lg-6 col-md-9 col-sm-9 col-xs-9">
                 ${HomeScreenComponent()}
             </div>
             <div class="col-xxl-4 col-xl-4 col-lg-4">
