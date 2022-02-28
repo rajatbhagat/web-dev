@@ -16,20 +16,20 @@ const ExploreComponent = () => {
         <div>
             <ul class="nav nav-tabs wd-padding-top">
                 <li class="nav-item">
-                    <a class="nav-link active text-white" href="#"><strong>For You</strong></a>
+                    <a class="nav-link active text-white" href="#">For You</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link " href="#"><strong>Trending</strong></a>
+                    <a class="nav-link " href="#">Trending</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link " href="#"><strong>News</strong></a>
+                    <a class="nav-link " href="#">News</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link " href="#"><strong>Sports</strong></a>
+                    <a class="nav-link " href="#">Sports</a>
                 </li>
-                <li class="nav-item d-none d-md-block">
+                <li class="nav-item ">
                     <a class="nav-link "
-                       href="#"><strong>Entertainment</strong></a>
+                       href="#">Entertainment</a>
                 </li>
             </ul>
         </div>
