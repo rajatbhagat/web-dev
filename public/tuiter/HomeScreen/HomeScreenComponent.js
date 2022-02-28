@@ -27,23 +27,31 @@ const HomeScreenComponent = () => {
                         </div>
                         <div id="icons-for-tuiter" class="wd-icons-for-tuiter row mb-4 mt-2">
                             <div class="wd-single-icon col-3">
-                                <span class="iconify wd-icon-color" data-icon="bx:bx-message-rounded" data-width="25"
-                                        data-height="25"><span class="wd-icon-values-style text-muted"> 34K</span></span>
+                                <span>
+                                    <i class="fa fa-light fa-comment wd-icon-color"></i>
+                                </span>
+                                    <span class="wd-icon-values-style text-muted wd-tuiter-icon-margin"> 1K</span>
                                 
                             </div>
                             <div class="wd-single-icon col-3">
-                                <span class="iconify wd-icon-color" data-icon="system-uicons:retweet" data-width="25"
-                                        data-height="25"></span><span class="wd-icon-values-style text-muted"> 56K</span>
+                                <span>
+                                    <i class="fa fa-light fa-retweet wd-icon-color"></i>
+                                </span>
+                                    <span class="wd-icon-values-style text-muted wd-tuiter-icon-margin"> 500K</span>
                                 
                             </div>
                             <div class="wd-single-icon col-3">
-                                <span class="iconify wd-icon-color" data-icon="icon-park-outline:like" data-width="25"
-                                        data-height="25"></span><span class="wd-icon-values-style-like text-muted"> 10.5K</span>
+                                <span>
+                                    <i class="fa fa-light fa-heart wd-icon-color"></i>
+                                </span>
+                                    <span class="wd-icon-values-style text-muted wd-tuiter-icon-margin"> 12K</span>
                                 
                             </div>
                             <div class="col-3 ">
-                                <span class="iconify wd-icon-color" data-icon="akar-icons:share-box" data-width="25"
-                                        data-height="25"></span>
+                                <span>
+                                    <i class="fa fa-light fa-upload wd-icon-color"></i>
+                                </span>
+                                    
                             </div>
                         </div>
                         </div>
@@ -77,23 +85,31 @@ const HomeScreenComponent = () => {
                         </div>
                         <div id="icons-for-tuiter" class="wd-icons-for-tuiter row mb-4 mt-2">
                             <div class="wd-single-icon col-3">
-                                <span class="iconify wd-icon-color" data-icon="bx:bx-message-rounded" data-width="25"
-                                        data-height="25"><span class="wd-icon-values-style text-muted"> 34K</span></span>
+                                <span>
+                                    <i class="fa fa-light fa-comment wd-icon-color"></i>
+                                </span>
+                                    <span class="wd-icon-values-style text-muted wd-tuiter-icon-margin"> 3K</span>
                                 
                             </div>
                             <div class="wd-single-icon col-3">
-                                <span class="iconify wd-icon-color" data-icon="system-uicons:retweet" data-width="25"
-                                        data-height="25"></span><span class="wd-icon-values-style text-muted"> 56K</span>
+                                <span>
+                                    <i class="fa fa-light fa-retweet wd-icon-color"></i>
+                                </span>
+                                    <span class="wd-icon-values-style text-muted wd-tuiter-icon-margin"> 12.3K</span>
                                 
                             </div>
                             <div class="wd-single-icon col-3">
-                                <span class="iconify wd-icon-color" data-icon="icon-park-outline:like" data-width="25"
-                                        data-height="25"></span><span class="wd-icon-values-style-like text-muted"> 10.5K</span>
+                                <span>
+                                    <i class="fa fa-light fa-heart wd-icon-color"></i>
+                                </span>
+                                    <span class="wd-icon-values-style text-muted wd-tuiter-icon-margin"> 10.4K</span>
                                 
                             </div>
                             <div class="col-3 ">
-                                <span class="iconify wd-icon-color" data-icon="akar-icons:share-box" data-width="25"
-                                        data-height="25"></span>
+                                <span>
+                                    <i class="fa fa-light fa-upload wd-icon-color"></i>
+                                </span>
+                                    
                             </div>
                         </div>
                         </div>

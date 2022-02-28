@@ -19,4 +19,9 @@
 
 .wd-icon-color {
     color: #2f3336;
+    font-size: 25px;
+}
+
+.wd-tuiter-icon-margin {
+    margin-left: 10px;
 }
