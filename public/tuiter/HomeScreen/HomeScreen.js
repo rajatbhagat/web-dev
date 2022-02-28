@@ -4,7 +4,7 @@ import PostSummaryList from "../PostSummaryList/index.js";
 
 (function ($) {
     $('#wd-homescreen').append(`
-        <div class="row">
+        <div class="row mt-4">
             <div class=" col-1 col-xxl-2 col-xl-2 col-lg-2 col-md-3 col-sm-3 col-xs-3">
                 ${NavigationSidebar('Home')}
             </div>
