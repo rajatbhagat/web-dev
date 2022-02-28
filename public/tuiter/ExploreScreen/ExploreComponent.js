@@ -33,7 +33,7 @@ const ExploreComponent = () => {
                 </li>
             </ul>
         </div>
-        <div class="wd-center-post-section">
+        <div class="wd-center-post-section mt-2">
             <div class="wd-center-img-container">
                 <img class="wd-occupy-all-width" src="../images/spacexpic.jpeg"/>
                 <strong><p class="wd-txt-over-img">
