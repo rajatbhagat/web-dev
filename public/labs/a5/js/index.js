@@ -7,6 +7,10 @@ var functionScoped = 2;
 let blockScoped = 5;
 const constant1 = global1 + functionScoped -
                   blockScoped;
+console.log(global1)
+console.log(functionScoped);
+console.log(blockScoped)
+console.log(constant1);
 
 console.log('Variable types');
 let numberVariable = 123;
@@ -16,6 +20,13 @@ let booleanVariable = true;
 let isNumber = typeof numberVariable;
 let isString = typeof stringVariable;
 let isBoolean = typeof booleanVariable;
+console.log(numberVariable);
+console.log(floatingPointNumber);
+console.log(stringVariable);
+console.log(booleanVariable);
+console.log(isNumber);
+console.log(isString);
+console.log(isBoolean);
 
 console.log('Boolean Variables');
 let true1 = true;
@@ -26,6 +37,14 @@ let true3 = !false2;
 let true4 = numberVariable === 123;
 let true5 = floatingPointNumber !== 321.432;
 let false3 = numberVariable < 100;
+console.log(true1);
+console.log(false1);
+console.log(false2);
+console.log(true2);
+console.log(true3);
+console.log(true4);
+console.log(true5);
+console.log(false3);
 
 console.log('If else');
 if(true1) {
@@ -79,15 +98,22 @@ let variableArray1 = [
     numberArray1,
     stringArray1
 ];
+console.log(numberArray1);
+console.log(stringArray1);
+console.log(variableArray1);
 
 console.log('Array Index and Length');
 const length1 = numberArray1.length;
 const index1 = numberArray1.indexOf(3);
+console.log(length1);
+console.log(index1);
 
 console.log('Adding and Removing data from array');
 // adding new items
 numberArray1.push(6);
 stringArray1.push('string3');
+console.log(numberArray1);
+console.log(stringArray1);
 
 // remove 1 item starting on 3rd spot
 numberArray1.splice(2, 1);
@@ -104,16 +130,22 @@ for (let i=0; i<stringArray1.length; i++) {
 console.log('Map Function');
 const squares = numberArray1.map(square);
 const cubes = numberArray1.map(a => a * a * a);
+console.log(squares);
+console.log(cubes);
 
 console.log('The Find Function');
 const four = numberArray1.find(a => a === 4);
 const string3 = stringArray1.find(a => a === 'string3');
+console.log(four);
+console.log(string3);
 
 console.log('The Find Index Function');
 const fourIndex = numberArray1
     .findIndex(a => a === 4);
 const string3Index = stringArray1
     .findIndex(a => a === 'string3');
+console.log(fourIndex);
+console.log(string3Index);
 
 console.log('The Filter Function');
 const numbersGreaterThan2 = numberArray1
@@ -122,6 +154,10 @@ const evenNumbers = numberArray1
     .filter(a => a % 2 === 0);
 const oddNumbers = numberArray1
     .filter(a => a % 2 !== 0);
+console.log(numberArray1);
+console.log(numbersGreaterThan2);
+console.log(evenNumbers);
+console.log(oddNumbers);
 
 console.log('Template Strings');
 const five = 2 + 3;
