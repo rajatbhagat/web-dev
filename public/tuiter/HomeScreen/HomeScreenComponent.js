@@ -28,23 +28,23 @@ const HomeScreenComponent = () => {
                         </div>
                         <div id="icons-for-tuiter" class="wd-icons-for-tuiter row mb-4 mt-2">
                             <div class="wd-single-icon col-3">
-                                <a class="text-decoration-none"><span class="iconify" data-icon="bx:bx-message-rounded" style="color: #2f3336;" data-width="25"
-                                        data-height="25"><span class="wd-icon-values-style"> 34</span></span></a>
+                                <span class="iconify" data-icon="bx:bx-message-rounded" style="color: #2f3336;" data-width="25"
+                                        data-height="25"><span class="wd-icon-values-style text-muted"> 34K</span></span>
                                 
                             </div>
                             <div class="wd-single-icon col-3">
-                                <a class="text-decoration-none"><span class="iconify" data-icon="system-uicons:retweet" style="color: #2f3336;" data-width="25"
-                                        data-height="25"></span><span class="wd-icon-values-style"> 56</span></a>
+                                <span class="iconify" data-icon="system-uicons:retweet" style="color: #2f3336;" data-width="25"
+                                        data-height="25"></span><span class="wd-icon-values-style text-muted"> 56K</span>
                                 
                             </div>
                             <div class="wd-single-icon col-3">
-                                <a class="text-decoration-none"><span class="iconify" data-icon="icon-park-outline:like" style="color: #2f3336;" data-width="25"
-                                        data-height="25"></span><span class="wd-icon-values-style-like"> 100</span></a>
+                                <span class="iconify" data-icon="icon-park-outline:like" style="color: #2f3336;" data-width="25"
+                                        data-height="25"></span><span class="wd-icon-values-style-like text-muted"> 10.5K</span>
                                 
                             </div>
                             <div class="col-3 ">
-                                <a style="float: right: ;margin-right: 18px" href="#share"><span class="iconify" data-icon="akar-icons:share-box" style="color: #2f3336;" data-width="25"
-                                        data-height="25"></span></a>
+                                <span class="iconify" data-icon="akar-icons:share-box" style="color: #2f3336;" data-width="25"
+                                        data-height="25"></span>
                             </div>
                         </div>
                         </div>
@@ -73,23 +73,23 @@ const HomeScreenComponent = () => {
                         </div>
                         <div id="icons-for-tuiter" class="wd-icons-for-tuiter row mb-4 mt-2">
                             <div class="wd-single-icon col-3">
-                                <a class="text-decoration-none"><span class="iconify" data-icon="bx:bx-message-rounded" style="color: #2f3336;" data-width="25"
-                                        data-height="25"><span class="wd-icon-values-style"> 34</span></span></a>
+                                <span class="iconify" data-icon="bx:bx-message-rounded" style="color: #2f3336;" data-width="25"
+                                        data-height="25"><span class="wd-icon-values-style text-muted"> 34K</span></span>
                                 
                             </div>
                             <div class="wd-single-icon col-3">
-                                <a class="text-decoration-none"><span class="iconify" data-icon="system-uicons:retweet" style="color: #2f3336;" data-width="25"
-                                        data-height="25"></span><span class="wd-icon-values-style"> 56</span></a>
+                                <span class="iconify" data-icon="system-uicons:retweet" style="color: #2f3336;" data-width="25"
+                                        data-height="25"></span><span class="wd-icon-values-style text-muted"> 56K</span>
                                 
                             </div>
                             <div class="wd-single-icon col-3">
-                                <a class="text-decoration-none"><span class="iconify" data-icon="icon-park-outline:like" style="color: #2f3336;" data-width="25"
-                                        data-height="25"></span><span class="wd-icon-values-style-like"> 100</span></a>
+                                <span class="iconify" data-icon="icon-park-outline:like" style="color: #2f3336;" data-width="25"
+                                        data-height="25"></span><span class="wd-icon-values-style-like text-muted">10.5K</span>
                                 
                             </div>
                             <div class="col-3 ">
-                                <a style="float: right: ;margin-right: 18px" href="#share"><span class="iconify" data-icon="akar-icons:share-box" style="color: #2f3336;" data-width="25"
-                                        data-height="25"></span></a>
+                                <span class="iconify" data-icon="akar-icons:share-box" style="color: #2f3336;" data-width="25"
+                                        data-height="25"></span>
                             </div>
                         </div>
                         </div>
