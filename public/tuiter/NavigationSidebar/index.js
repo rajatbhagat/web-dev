@@ -10,7 +10,7 @@ const NavigationSidebar = (active) => {
                     <span class="d-none d-lg-block text-white" >Home</span></a>
                 <a class="list-group-item list-group-item-action ${active === 'Explore' ? `active`: ``} " href="../ExploreScreen/explore.html">
                     <i class="fa fa-hashtag float-start wd-padding-top wd-right-padding text-white"></i>
-                    <strong><span class="d-none d-lg-block text-white">Explore</span></strong></a>
+                    <span class="d-none d-lg-block text-white">Explore</span></a>
                 <a class="list-group-item list-group-item-action ">
                     <i class="fa fa-bell float-start wd-padding-top wd-right-padding text-white"></i>
                     <span class="d-none d-lg-block text-white">Notifications</span></a>
