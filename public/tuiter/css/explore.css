@@ -209,11 +209,13 @@
 .wd-post-small-img {
     float: right;
     border-radius: 5px;
-    /*width: 100px;*/
-    /*height: 100px;*/
-    max-width: 100%;
-    height: auto;
-    width: auto;
+    width: 100%;
+    height: 100%;
+    max-width: auto;
+    /*width: 100%;*/
+    max-height: auto;
+    /*height: auto;*/
+    /*width: auto;*/
 }
 
 .wd-follow-topic {

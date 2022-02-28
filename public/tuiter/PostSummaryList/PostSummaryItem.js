@@ -1,7 +1,7 @@
 const PostSummaryItem = (post) => {
     return(`
         <div class="row wd-occupy-all-width">
-            <div class="col-10 col-xxl-10 col-xl-10 col-lg-10 col-sm-10 col-md-10">
+            <div class="col-9 col-xxl-9 col-xl-9 col-lg-9 col-sm-9 col-md-9">
                 <div class="row">
                     <p class="wd-post-topic wd-font-color-light-gray">${post.topic}</p>
                 </div>
@@ -16,7 +16,7 @@ const PostSummaryItem = (post) => {
                     <p class="wd-post-topic wd-font-color-light-gray">${post.tweets}</p>
                 </div>
             </div>
-            <div class="col-2 col-xxl-2 col-xl-2 col-lg-2 col-sm-2 col-md-2">
+            <div class="col-3 col-xxl-3 col-xl-3 col-lg-3 col-sm-3 col-md-3">
                 <div class="wd-post-small-img-container">
                     <img class="wd-post-small-img"
                          src="${post.image}"/>
