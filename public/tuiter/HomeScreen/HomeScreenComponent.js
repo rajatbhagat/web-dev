@@ -1,6 +1,6 @@
 const HomeScreenComponent = () => {
     return (`
-        <div class="row" style="margin-left: 5px: border-bottom: 1px solid white">
+        <div class="row wd-row-style" >
             <div class="col-1 col-xxl-1 col-xl-1 col-lg-2 col-md-2 col-sm-2">
                 <img src="../images/nasalogo.jpg" alt="profile_pic" class="wd-follow-img">
             </div>
@@ -16,9 +16,8 @@ const HomeScreenComponent = () => {
                 </div>
                 <div class="row" >
                     <div>
-                        <div style="border: 1px solid; border-color : #4f5050; border-radius: 20px; width: 100%">
-                            <img src="../images/nasawebtelescope.jpeg" 
-                            style="border-bottom: 1px solid #4f5050; border-top-left-radius: 20px; border-top-right-radius: 20px; width:100%;   height: 500px">
+                        <div class="wd-post-author-name-style">
+                            <img class="wd-home-screen-post-img" src="../images/nasawebtelescope.webp"> 
                             <div class="mt-2">
                                 <span class="text-white p-4 mt-2">NASA's James Web Telescope has been launched!!</span>
                             </div>
@@ -51,7 +50,7 @@ const HomeScreenComponent = () => {
                     </div>
             </div>
         </div>
-        <div class="row" style="margin-left: 5px: border-bottom: 1px solid white">
+        <div class="row mt-3" style="margin-left: 5px: border-bottom: 1px solid white">
             <div class="col-1 col-xxl-1 col-xl-1 col-lg-2 col-md-2 col-sm-2">
                 <img src="../images/teslalogo.png" alt="profile_pic" class="wd-follow-img">
             </div>
