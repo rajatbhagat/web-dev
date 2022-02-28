@@ -1,6 +1,7 @@
 const PostSummaryItem = (post) => {
     return(`
-        <div class="row wd-occupy-all-width">
+<span class="list-group-item wd-dark-gray-color">
+        <div class="row">
             <div class="col-9 col-xxl-9 col-xl-9 col-lg-9 col-sm-9 col-md-9">
                 <div class="row">
                     <p class="wd-post-topic wd-font-color-light-gray">${post.topic}</p>
@@ -23,6 +24,7 @@ const PostSummaryItem = (post) => {
                 </div>
             </div>
         </div>
+        </span>
     `)
 
 }

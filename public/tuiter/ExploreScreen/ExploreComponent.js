@@ -14,21 +14,21 @@ const ExploreComponent = () => {
             </div>
         </div>
         <div>
-            <ul class="nav nav-pills nav-justified wd-padding-top">
-                <li class="nav-item wd-border-bottom-links wd-tabs-links">
-                    <a class="nav-link text-white" href="#"><strong>For You</strong></a>
+            <ul class="nav nav-tabs wd-padding-top">
+                <li class="nav-item">
+                    <a class="nav-link active text-white" href="#"><strong>For You</strong></a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link wd-tabs-links" href="#"><strong>Trending</strong></a>
+                    <a class="nav-link " href="#"><strong>Trending</strong></a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link wd-tabs-links" href="#"><strong>News</strong></a>
+                    <a class="nav-link " href="#"><strong>News</strong></a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link wd-tabs-links" href="#"><strong>Sports</strong></a>
+                    <a class="nav-link " href="#"><strong>Sports</strong></a>
                 </li>
                 <li class="nav-item d-none d-md-block">
-                    <a class="nav-link wd-tabs-links"
+                    <a class="nav-link "
                        href="#"><strong>Entertainment</strong></a>
                 </li>
             </ul>

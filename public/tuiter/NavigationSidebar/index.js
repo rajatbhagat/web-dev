@@ -5,28 +5,28 @@ const NavigationSidebar = (active) => {
                 <a class="list-group-item" href="/">
                     <i class="fab fa-twitter"></i></a>
             <!-- continue the rest of the list -->
-            <a class="list-group-item list-group-item-action ${active === 'Home' ? `active`: ``} bg-black" href="../HomeScreen/homescreen.html">
+            <a class="list-group-item list-group-item-action ${active === 'Home' ? `active`: ``} " href="../HomeScreen/homescreen.html">
                     <i class="fa fa-home float-start wd-padding-top wd-right-padding text-white"></i>
                     <span class="d-none d-lg-block text-white" >Home</span></a>
-                <a class="list-group-item list-group-item-action ${active === 'Explore' ? `active`: ``} bg-black" href="../ExploreScreen/explore.html">
+                <a class="list-group-item list-group-item-action ${active === 'Explore' ? `active`: ``} " href="../ExploreScreen/explore.html">
                     <i class="fa fa-hashtag float-start wd-padding-top wd-right-padding text-white"></i>
                     <strong><span class="d-none d-lg-block text-white">Explore</span></strong></a>
-                <a class="list-group-item list-group-item-action bg-black">
+                <a class="list-group-item list-group-item-action ">
                     <i class="fa fa-bell float-start wd-padding-top wd-right-padding text-white"></i>
                     <span class="d-none d-lg-block text-white">Notifications</span></a>
-                <a class="list-group-item list-group-item-action bg-black">
+                <a class="list-group-item list-group-item-action ">
                     <i class="fa fa-envelope float-start wd-padding-top wd-right-padding text-white"></i>
                     <span class="d-none d-lg-block text-white">Messages</span></a>
-                <a class="list-group-item list-group-item-action bg-black">
+                <a class="list-group-item list-group-item-action ">
                     <i class="fa fa-bookmark float-start wd-padding-top wd-right-padding text-white"></i>
                     <span class="d-none d-lg-block text-white">Bookmarks</span></a>
-                <a class="list-group-item list-group-item-action bg-black">
+                <a class="list-group-item list-group-item-action ">
                     <i class="fa fa-list float-start wd-padding-top wd-right-padding text-white"></i>
                     <span class="d-none d-lg-block text-white">List</span></a>
-                <a class="list-group-item list-group-item-action bg-black">
+                <a class="list-group-item list-group-item-action ">
                     <i class="fa fa-user float-start wd-padding-top wd-right-padding text-white"></i>
                     <span class="d-none d-lg-block text-white">Profile</span></a>
-                <a class="list-group-item list-group-item-action bg-black">
+                <a class="list-group-item list-group-item-action ">
                     <span class="fa-stack fa-1x float-start wd-negative-margin-more-icon">
                         <i class="fas fa-circle fa-stack-1x float-start wd-more-icon-size text-white"></i>
                         <i class="fas fa-ellipsis-h fa-stack-1x fa-inverse text-black"></i>
