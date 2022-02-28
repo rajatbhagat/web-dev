@@ -1,5 +1,6 @@
 import NavigationSidebar from "../NavigationSidebar/index.js";
 import HomeScreenComponent from "./HomeScreenComponent.js";
+import homePost from "./homePost.js";
 import PostSummaryList from "../PostSummaryList/index.js";
 
 (function ($) {
@@ -11,9 +12,10 @@ import PostSummaryList from "../PostSummaryList/index.js";
                 </div>
             </div>
             <div class="wd-border-between-cols col-xxl-7 col-xl-7 col-lg-7 col-md-9 col-sm-9 col-xs-9">
-            <div class="mt-3">
-                ${HomeScreenComponent()}
-                </div>
+                    ${
+                        homePost.map(singlePost =>{ 
+                        return(HomeScreenComponent(singlePost))
+                    }).join('')}
             </div>
             <div class="col-xxl-3 col-xl-3 col-lg-3">
             <div class="mt-3">
