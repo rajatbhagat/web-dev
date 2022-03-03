@@ -1,0 +1,138 @@
+.wd-bookmarks-heading {
+    color: white;
+    font-size: 20px;
+    padding-left: 16px;
+    height: 100%;
+}
+
+.wd-bookmarks-box {
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+    border-width: 2px;
+    border-radius: 10px;
+    min-height: 100%;
+}
+
+.wd-bookmarks-handle {
+    color: rgb(47, 51, 54);
+    font-size: 13px;
+    margin-top: -18px;
+    padding-left: 16px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(47, 51, 54);
+    margin-bottom: 12px;
+}
+
+img#profile-img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+}
+
+.wd-bookmark-profile-post {
+    padding-left: 16px;
+    display: inline-flex;
+    height: 100%;
+}
+
+p#profile-author-name {
+    padding-left: 12px;
+    color: white;
+    font-size: 15px;
+}
+
+p#profile-author-handle {
+    padding-left: 12px;
+    color: rgb(47, 51, 54);
+    font-size: 15px;
+}
+
+.wd-bookmark-profile-description {
+    padding-left: 75px;
+    width: 506px;
+    margin-right: 12px;
+    font-size: 15px;
+    margin-bottom: 12px;
+    margin-top: -30px;
+    color: white;
+}
+.wd-single-post {
+    /* width: 504px; */
+    margin-top: 12px;
+    /* height: 264px; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(47, 51, 54);
+}
+
+.wd-post-image {
+    margin-left: 75px;
+    border-radius: 20px;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(47, 51, 54);
+    width: 506px;
+}
+
+.wd-post-img-1 {
+    width: 504px;
+    height: 264px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    /* border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(47, 51, 54); */
+}
+
+img#post-img-1 {
+    width: 504px;
+    height: 264px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(47, 51, 54);
+}
+
+.wd-post-title-1 {
+    padding: 12px;
+    color: white;
+    font-size: 15px;
+}
+
+p#post-text-content-1 {
+    font-size: 15px;
+    width: 504px;
+    margin-top: -10px;
+    color: rgb(47, 51, 54);
+}
+
+.wd-icons-for-tuiter {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 490px;
+    margin-left: 85px;
+    margin-top: 12px;
+    color: rgb(47, 51, 54);
+
+}
+
+.wd-single-icon {
+    display: inline-flex;
+    font-size: 20px;
+}
+
+.wd-icon-values-style {
+    color: rgb(47, 51, 54); 
+    padding-left: 10px; 
+    font-size: 18px
+}
+.wd-icon-values-style-like {
+    color: red; 
+    padding-left: 10px; 
+    font-size: 18px
+}

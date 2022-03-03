@@ -1,10 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Explore</title>
+    <link href="css/explore.css" rel="stylesheet" />
 </head>
-<body>
 
+<body class="wd-general-style">
+    <div id="main-div" class="wd-main-div">
+
+        <!-- The search box starts here   -->
+        <div class="wd-search-box-settings">
+            <div class="wd-search-box" id="div-search-box">
+                <input class="wd-search-box" id="search-text-box" placeholder="Search Tuiter" type="text" />
+            </div>
+            <div>
+                <a href="explore-settings.html"><img class="wd-settings-img" id="settings-img"
+                        src="images/settings.png"></a>
+            </div>
+        </div>
+        <!-- The search box starts here   -->
+
+        <!-- The links starts here   -->
+        <div class="wd-main-link">
+            <div id="links-to-diff-tabs" class="wd-links-to-tabs">
+                <a class="wd-for-you-link" href="#foryou">For You</a>
+                <a class="wd-links-to-other-tabs" href="#trending">Trending</a>
+                <a class="wd-links-to-other-tabs" href="#covid19">COVID-19</a>
+                <a class="wd-links-to-other-tabs" href="#news">News</a>
+                <a class="wd-links-to-other-tabs" href="#sports">Sports</a>
+                <a class="wd-links-to-other-tabs" href="#entertainment">Entertainment</a>
+            </div>
+        </div>
+        <div class="wd-border-div"></div>
+        <!-- The links ends here   -->
+        <!-- The list of posts starts ends here   -->
+        <!-- <div> -->
+        <div class="wd-post" id="trending-in-science-post" style="padding-top: 10px;">
+            <!--This is the topic-->
+            <div class="wd-post-title" id="science-title">
+                <p class="wd-text-post-style">Trending in Science</p>
+            </div>
+            <!--            This is the title-->
+            <div class="wd-post-name" id="science-post-name">
+                <p class="wd-text-post-style">Starship</p>
+            </div>
+            <!--            This is the number of tweets-->
+            <div class="wd-post-tweets" id="science-post-tweets">
+                <p class="wd-text-post-style">55.5k Tweets</p>
+            </div>
+        </div>
+        <!-- </div> -->
+
+        <!-- The list of posts starts ends here   -->
+        <!-- <div> -->
+        <div class="wd-post" id="trending-in-sports-post">
+            <!--This is the topic-->
+            <div class="wd-post-title" id="sports-title">
+                <p class="wd-text-post-style">Trending in Sports</p>
+            </div>
+            <!--            This is the title-->
+            <div class="wd-post-name" id="sports-post-name">
+                <p class="wd-text-post-style">Joe Rogan</p>
+            </div>
+            <!--            This is the number of tweets-->
+            <div class="wd-post-tweets" id="sports-post-tweets">
+                <p class="wd-text-post-style">5,218 Tweets</p>
+            </div>
+        </div>
+        <!-- </div> -->
+
+        <!-- The list of posts starts ends here   -->
+        <div class="wd-post-with-img">
+            <div style="display: inline-flex; width: 100%">
+                <div class="wd-post-with-img-text" id="ny-times-post">
+                    <!--This is the author-->
+                    <div class="wd-post-author" id="post-author">
+                        <img src="images/logo-eg.png" class="wd-post-small-img" />
+                        <p class="wd-text-post-style">The New York Times</p>
+                        <img src="images/twitter-verified-badge.svg" class="wd-post-small-img" />
+
+                    </div>
+                    <!--            This is the title-->
+                    <div class="wd-post-name" id="post-name">
+                        <p class="wd-text-post-style">CNN's Conundrum</p>
+                    </div>
+                </div>
+                <div style="float: right">
+                    <img class="wd-tuit-small-img" src="images/calvin_hobb_post.jpeg" />
+                </div>
+            </div>
+        </div>
+
+        <!-- The list of posts starts ends here   -->
+        <div class="wd-post-with-img">
+            <div style="display: inline-flex; width: 100%">
+                <div class="wd-post-with-img-text" id="covid-19-post">
+                    <!--This is the author-->
+                    <div class="wd-post-topic" id="covid-19-post-topic">
+                        <p class="wd-text-post-style">COVID-19 Live</p>
+                    </div>
+                    <!--            This is the title-->
+                    <div class="wd-post-name" id="covid-19-post-name">
+                        <p class="wd-text-post-style">COVID-19 News and Updates</p>
+                    </div>
+                </div>
+                <div style="float: right">
+                    <img class="wd-tuit-small-img" src="images/calvin_scary.webp" />
+                </div>
+            </div>
+        </div>
+
+        <div class="wd-post-with-img">
+            <div style="display: inline-flex; width: 100%">
+                <div class="wd-post-with-img-text" id="bloomberg-times-post">
+                    <!--This is the author-->
+                    <div class="wd-post-author" id="bloomberg-post-author">
+                        <img src="images/logo-eg.png" class="wd-post-small-img" />
+                        <p class="wd-text-post-style">Bloomberg News</p>
+                        <img src="images/twitter-verified-badge.svg" class="wd-post-small-img" />
+                    </div>
+                    <!--            This is the title-->
+                    <div class="wd-post-name" id="bloomberg-post-name">
+                        <p class="wd-text-post-style">Get vaccinated!! If already done then get a booster!!</p>
+                    </div>
+                </div>
+                <div style="float: right">
+                    <img class="wd-tuit-small-img" src="images/calvin_cute.jpeg" />
+                </div>
+            </div>
+        </div>
+
+        <!-- The list of posts starts ends here   -->
+        <!-- <div> -->
+        <div class="wd-post" id="trending-in-us-post">
+            <!--This is the topic-->
+            <div class="wd-post-title" id="us-title">
+                <p class="wd-text-post-style">Trending in United States</p>
+            </div>
+            <!--            This is the title-->
+            <div class="wd-post-name" id="us-post-name">
+                <p class="wd-text-post-style">Wonder Bread</p>
+            </div>
+            <!--            This is the number of tweets-->
+            <div class="wd-post-tweets" id="us-post-tweets">
+                <p class="wd-text-post-style">1,259 Tweets</p>
+            </div>
+        </div>
+        <!-- </div> -->
+
+    </div>
 </body>
+
 </html>
