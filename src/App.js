@@ -1,8 +1,13 @@
-import './App.css';
+import './vendors/bootstrap/css/bootstrap.min.css';
+import './vendors/bootstrap/bootstrap.min.css';
+import './vendors/fontawesome/css/all.min.css';
+import HelloWord from "./components/hello-world";
 
 function App() {
   return (
-      <h1>Hello World!</h1>
+      <div className="container">
+        <HelloWord />
+      </div>
   );
 }
 
