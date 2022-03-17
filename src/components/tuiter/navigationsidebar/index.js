@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../../vendors/fontawesome/css/all.min.css';
+import './navigationsidebar.css';
 
 const NavigationSidebar = ({active = 'explore'}) => {
     return (
