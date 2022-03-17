@@ -1,14 +1,10 @@
 import React from 'react';
-import NavigationSidebar from "./navigationsidebar";
-import WhoToFollowList from "./whoToFollow/WhoToFollowList";
-import PostSummaryList from "./PostSummaryList";
+import ExploreScreen from "./ExploreScreen/ExploreScreen";
 
 const Tuiter = () => {
     return (
         <>
-            <NavigationSidebar active={'home'}/>
-            <PostSummaryList />
-            <WhoToFollowList />
+            <ExploreScreen/>
         </>
 
     );

@@ -22,7 +22,7 @@ const PostSummaryItem = ({post}) => {
                 <div className="col-3 col-xxl-3 col-xl-3 col-lg-3 col-sm-3 col-md-3">
                     <div className="wd-post-small-img-container">
                         <img className="wd-post-small-img"
-                             src={post.image}/>
+                             src={window.location.origin + post.image}/>
                     </div>
                 </div>
             </div>
