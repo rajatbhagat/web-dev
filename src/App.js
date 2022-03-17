@@ -5,6 +5,8 @@ import HelloWord from "./components/hello-world";
 import Labs from "./components/labs";
 import Tuiter from "./components/tuiter";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
+import HomeScreen from "./components/tuiter/HomeScreen/HomeScreen";
+import ExploreScreen from "./components/tuiter/ExploreScreen/ExploreScreen";
 
 function App() {
   return (
@@ -13,7 +15,8 @@ function App() {
             <Routes>
                 <Route path="/hello" element={<HelloWord />}/>
                 <Route path="/" element={<Labs/>}/>
-                <Route path="/tuiter" element={<Tuiter/>}/>
+                <Route path="/tuiter/home" element={<HomeScreen/>}/>
+                <Route path="/tuiter/explore" element={<ExploreScreen/>}/>
             </Routes>
         </div>
       </BrowserRouter>

@@ -8,8 +8,11 @@ const HelloWord = () => {
             <Link to="/">
                 Labs
             </Link> |
-            <Link to="/tuiter">
-                Tuiter
+            <Link to="/tuiter/home">
+                Tuiter Home
+            </Link>
+            <Link to="/tuiter/explore">
+                Tuiter Explore
             </Link>
         </>
 );

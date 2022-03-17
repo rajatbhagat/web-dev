@@ -27,8 +27,8 @@ const WhoToFollowListItem = ({
                     </div>
                 </div>
                 <div className="col col-xxl-4 col-xl-4 col-lg-4">
-                    <button className=" btn align-content-center float-end wd-follow-btn bg-white">
-                        <strong className="text-black float-start">Follow</strong>
+                    <button className="btn-primary btn float-end wd-follow-btn">
+                        <strong className="text-white float-start">Follow</strong>
                     </button>
                 </div>
             </div>
