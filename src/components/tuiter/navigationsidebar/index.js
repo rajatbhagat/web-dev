@@ -1,21 +1,22 @@
 import React from 'react';
 import '../../../vendors/fontawesome/css/all.min.css';
 import './navigationsidebar.css';
+import {Link} from "react-router-dom";
 
-const NavigationSidebar = ({active = 'explore'}) => {
+const NavigationSidebar = ({active}) => {
     return (
         <div className="row mt-2">
             <div className="list-group">
-                <a className="list-group-item" href="/">
-                    <i className="fab fa-twitter" /></a>
-                <a className={`list-group-item list-group-item-action ${active === 'home' ? 'active': ''} "`}
-                   href="../HomeScreen/homescreen.html">
+                <Link className="list-group-item" to="/">
+                    <i className="fab fa-twitter" /></Link>
+                <Link className={`list-group-item list-group-item-action ${active === 'home' ? 'active': ''} "`}
+                   to="/tuiter/home">
                     <i className="fa fa-home float-start wd-padding-top wd-right-padding text-white"/>
-                    <span className="d-none d-lg-block text-white">Home</span></a>
-                <a className={`list-group-item list-group-item-action ${active === 'explore' ? 'active': ''} "`}
-                   href="../ExploreScreen/explore.html">
+                    <span className="d-none d-lg-block text-white">Home</span></Link>
+                <Link className={`list-group-item list-group-item-action ${active === 'explore' ? 'active': ''} "`}
+                   to="/tuiter/explore">
                     <i className="fa fa-hashtag float-start wd-padding-top wd-right-padding text-white"/>
-                    <span className="d-none d-lg-block text-white">Explore</span></a>
+                    <span className="d-none d-lg-block text-white">Explore</span></Link>
                 <a className="list-group-item list-group-item-action ">
                     <i className="fa fa-bell float-start wd-padding-top wd-right-padding text-white"/>
                     <span className="d-none d-lg-block text-white">Notifications</span></a>

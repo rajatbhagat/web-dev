@@ -8,8 +8,8 @@ const Tuiter = () => {
 
             <BrowserRouter>
                 <Routes>
-                    <Route path="/tuiter/explore" element={<ExploreScreen/>}/>
-                    <Route path="/tuiter/home" element={<HomeScreen/>}/>
+                    <Route path="/tuiter/explore" element={<ExploreScreen active={'explore'}/>}/>
+                    <Route path="/tuiter/home" element={<HomeScreen active={'home'}/>}/>
                 </Routes>
             </BrowserRouter>
 

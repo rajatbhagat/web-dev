@@ -10,7 +10,7 @@ const HelloWord = () => {
             </Link> |
             <Link to="/tuiter/home">
                 Tuiter Home
-            </Link>
+            </Link> |
             <Link to="/tuiter/explore">
                 Tuiter Explore
             </Link>
