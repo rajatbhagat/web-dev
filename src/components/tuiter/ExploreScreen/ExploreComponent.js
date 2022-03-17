@@ -8,7 +8,7 @@ const ExploreComponent = () => {
         <div className="d-inline-flex wd-occupy-all-width">
             <div className="wd-group-input-icon wd-left-margin">
                 <i className="fa fa-search wd-icon-inside wd-search-bar-icon-color"/>
-                <input className="form-control wd-rounded-corners-search wd-fill-width-search-bar wd-dark-gray-color wd-center-section-border"
+                <input className="form-control wd-rounded-corners-search wd-fill-width-search-bar wd-center-section-border"
                        placeholder="Search Tuiter" type="search"/>
             </div>
             <div>
