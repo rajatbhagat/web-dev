@@ -1,4 +1,4 @@
-import './postSummaryItem.css';
+// import './postSummaryItem.css';
 
 const PostSummaryItem = ({post}) => {
     return(

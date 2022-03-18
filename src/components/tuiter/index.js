@@ -5,13 +5,11 @@ import HomeScreen from "./HomeScreen/HomeScreen";
 
 const Tuiter = () => {
     return (
+        <Routes>
+            <Route path="/tuiter/explore" element={<ExploreScreen/>}/>
+            <Route path="/tuiter/home" element={<HomeScreen/>}/>
+        </Routes>
 
-            <BrowserRouter>
-                <Routes>
-                    <Route path="/tuiter/explore" element={<ExploreScreen active={'explore'}/>}/>
-                    <Route path="/tuiter/home" element={<HomeScreen active={'home'}/>}/>
-                </Routes>
-            </BrowserRouter>
 
 
     );

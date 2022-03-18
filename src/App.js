@@ -15,7 +15,7 @@ function App() {
             <Routes>
                 <Route path="/hello" element={<HelloWord />}/>
                 <Route path="/" element={<Labs/>}/>
-                <Route path="/tuiter/home" element={<HomeScreen/>}/>
+                <Route path="/tuiter/home" element={<HomeScreen />}/>
                 <Route path="/tuiter/explore" element={<ExploreScreen/>}/>
             </Routes>
         </div>

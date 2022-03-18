@@ -9,11 +9,11 @@ const NavigationSidebar = ({active}) => {
             <div className="list-group">
                 <Link className="list-group-item" to="/">
                     <i className="fab fa-twitter" /></Link>
-                <Link className={`list-group-item list-group-item-action ${active === 'home' ? 'active': ''} "`}
+                <Link className={`list-group-item list-group-item-action ${active === 'home' ? 'active': ''} `}
                    to="/tuiter/home">
                     <i className="fa fa-home float-start wd-padding-top wd-right-padding text-white"/>
                     <span className="d-none d-lg-block text-white">Home</span></Link>
-                <Link className={`list-group-item list-group-item-action ${active === 'explore' ? 'active': ''} "`}
+                <Link className={`list-group-item list-group-item-action ${active === 'explore' ? 'active': ''} `}
                    to="/tuiter/explore">
                     <i className="fa fa-hashtag float-start wd-padding-top wd-right-padding text-white"/>
                     <span className="d-none d-lg-block text-white">Explore</span></Link>
