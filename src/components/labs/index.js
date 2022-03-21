@@ -5,7 +5,7 @@ import Styles from "./styles";
 import ConditionalOutput from "./conditional-output";
 import TodoList from "./todo/ToDoList";
 import ReduxExamples from "./redux-examples";
-import HelloReduxExample from "./redux-examples/hello-redux-example";
+// import HelloReduxExample from "./redux-examples/hello-redux-example";
 
 
 const Index = () => {
