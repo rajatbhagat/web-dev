@@ -4,7 +4,7 @@ import Classes from "./classes";
 import Styles from "./styles";
 import ConditionalOutput from "./conditional-output";
 import TodoList from "./todo/ToDoList";
-import ReduxExamples from "./redux-examples";
+// import ReduxExamples from "./redux-examples";
 // import HelloReduxExample from "./redux-examples/hello-redux-example";
 
 
@@ -22,7 +22,7 @@ const Index = () => {
                 Tuiter
             </Link>
             <Classes />
-            <ReduxExamples/>
+            {/*<ReduxExamples/>*/}
         </>
 
 );
