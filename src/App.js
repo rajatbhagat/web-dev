@@ -11,7 +11,7 @@ import ExploreScreen from "./components/tuiter/ExploreScreen/ExploreScreen";
 function App() {
   return (
       <BrowserRouter>
-        <div className="container">
+        <div className="container-fluid">
             <Routes>
                 <Route path="/hello" element={<HelloWord />}/>
                 <Route path="/" element={<Labs/>}/>
