@@ -3,7 +3,7 @@ import './index.css';
 
 const Classes = () => {
     const color = 'blue';
-    const dangerous = true;
+    const dangerous = false;
     return(
         <div>
             <h2>Classes</h2>

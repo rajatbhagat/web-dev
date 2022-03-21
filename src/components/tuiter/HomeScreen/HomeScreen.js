@@ -8,13 +8,13 @@ const HomeScreen = () => {
     return (
         <div className="row">
             <div
-                className="wd-border-between-cols col-1 col-xxl-2 col-xl-2 col-lg-2 col-md-3 col-sm-3 col-xs-3">
+                className="wd-border-between-cols col-1 col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
                 <div className="mt-3">
                     <NavigationSidebar active={'home'}/>
                 </div>
             </div>
             <div
-                className="wd-border-between-cols col-xxl-7 col-xl-7 col-lg-7 col-md-9 col-sm-9 col-xs-9">
+                className="wd-border-between-cols col-xxl-7 col-xl-7 col-lg-7 col-md-10 col-sm-10 col-xs-10">
                 {
                     homePost.map(singlePost => {
                         return (
