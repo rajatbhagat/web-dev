@@ -11,14 +11,14 @@ function App() {
   return (
       <BrowserRouter>
         <div className="container-fluid">
-            <Link to="/hello"/>
-            <Link to="/"/>
-            <Link to="/tuiter"/>
-            <Link to="/tuiter/home"/>
-            <Link to="/tuiter/explore"/>
+            {/*<Link to="/"/>*/}
+            {/*<Link to="/hello"/>*/}
+            {/*<Link to="/tuiter"/>*/}
+            {/*<Link to="/tuiter/home"/>*/}
+            {/*<Link to="/tuiter/explore"/>*/}
             <Routes>
-                <Route path="/hello" element={<HelloWord />}/>
                 <Route path="/" element={<Labs/>}/>
+                <Route path="/hello" element={<HelloWord />}/>
                 <Route path="/tuiter/" element={<HomeScreen />}/>
                 <Route path="/tuiter/home" element={<HomeScreen />}/>
                 <Route path="/tuiter/explore" element={<ExploreScreen/>}/>
