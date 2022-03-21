@@ -210,18 +210,6 @@
     padding-right: 0;
 }
 
-.wd-post-small-img {
-    float: right;
-    border-radius: 5px;
-    width: 100px;
-    height: 100px;
-    max-width: auto;
-    /*width: 100%;*/
-    max-height: auto;
-    /*height: auto;*/
-    /*width: auto;*/
-}
-
 .wd-follow-topic {
     font-size: 14px;
 }

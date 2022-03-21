@@ -8,7 +8,6 @@ const WhoToFollowListItem = ({
                                  }
                              }
                             ) => {
-    // TODO: The images path is not being resolved
     return (
         <span className="list-group-item wd-dark-gray-color">
             <div className="row">
