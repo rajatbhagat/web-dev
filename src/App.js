@@ -3,19 +3,14 @@ import './vendors/bootstrap/bootstrap.min.css';
 import './vendors/fontawesome/css/all.min.css';
 import HelloWord from "./components/hello-world";
 import Labs from "./components/labs";
-import {BrowserRouter, Routes, Route, Link} from "react-router-dom";
-import HomeScreen from "./components/tuiter/HomeScreen/HomeScreen";
-import ExploreScreen from "./components/tuiter/ExploreScreen/ExploreScreen";
+import {BrowserRouter, Routes, Route} from "react-router-dom";
+import HomeScreen from "./components/tuiter/HomeScreen/HomeScreen.js";
+import ExploreScreen from "./components/tuiter/ExploreScreen/ExploreScreen.js";
 
 function App() {
   return (
       <BrowserRouter>
         <div className="container-fluid">
-            {/*<Link to="/"/>*/}
-            {/*<Link to="/hello"/>*/}
-            {/*<Link to="/tuiter"/>*/}
-            {/*<Link to="/tuiter/home"/>*/}
-            {/*<Link to="/tuiter/explore"/>*/}
             <Routes>
                 <Route path="/" element={<Labs/>}/>
                 <Route path="/hello" element={<HelloWord />}/>
