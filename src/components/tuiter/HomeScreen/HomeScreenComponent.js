@@ -44,7 +44,7 @@ const HomeScreenComponent = ({post}) => {
                                  className="wd-icons-for-tuiter row mb-4 mt-2">
                                 <div className="wd-single-icon col-3">
                                 <span>
-                                    <i className="fa fa-light fa-comment wd-icon-color"/>
+                                    <i className="far fa-comment text-white"/>
                                 </span>
                                     <span
                                         className="wd-icon-values-style text-muted wd-tuiter-icon-margin"> {post.postComment}</span>
@@ -52,7 +52,7 @@ const HomeScreenComponent = ({post}) => {
                                 </div>
                                 <div className="wd-single-icon col-3">
                                 <span>
-                                    <i className="fa fa-light fa-retweet wd-icon-color"/>
+                                    <i className="fa fa-retweet text-white"/>
                                 </span>
                                     <span
                                         className="wd-icon-values-style text-muted wd-tuiter-icon-margin"> {post.postRetweet}</span>
@@ -60,7 +60,7 @@ const HomeScreenComponent = ({post}) => {
                                 </div>
                                 <div className="wd-single-icon col-3">
                                 <span>
-                                    <i className="fa fa-light fa-heart wd-icon-color"/>
+                                    <i className="far fa-heart text-white" aria-hidden="true"/>
                                 </span>
                                     <span
                                         className="wd-icon-values-style text-muted wd-tuiter-icon-margin"> {post.postLike}</span>
@@ -68,7 +68,7 @@ const HomeScreenComponent = ({post}) => {
                                 </div>
                                 <div className="col-3 ">
                                 <span>
-                                    <i className="fa fa-light fa-upload wd-icon-color"/>
+                                    <i className="fa fa-upload text-white"/>
                                 </span>
 
                                 </div>
