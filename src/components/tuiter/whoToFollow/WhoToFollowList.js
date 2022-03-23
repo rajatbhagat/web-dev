@@ -1,8 +1,9 @@
-import whoToFollowList from "./who.json";
 import WhoToFollowListItem from "./WhoToFollowListItem.js";
 import './whoToFollow.css';
+import {useSelector} from "react-redux";
 
 const WhoToFollowList = () => {
+    const whoToFollowList = useSelector((state => state))
     return (
         <div className="list-group wd-rounded-corners">
             <span className="list-group-item wd-dark-gray-color">

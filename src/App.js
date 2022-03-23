@@ -13,10 +13,13 @@ function App() {
       <BrowserRouter>
         <div className="container">
             <Routes>
-                <Route path="/hello" element={<HelloWord />}/>
                 <Route path="/" element={<Labs/>}/>
-                <Route path="/tuiter/home" element={<HomeScreen />}/>
-                <Route path="/tuiter/explore" element={<ExploreScreen/>}/>
+                <Route path="/hello" element={<HelloWord />}/>
+                <Route path="/tuiter" element={<Tuiter />}>
+                    <Route path="home" element={<HomeScreen />}/>
+                    <Route path="explore" element={<ExploreScreen/>}/>
+                    {/*<Route path="notifications" element={<NotificationScreen/>}/>*/}
+                </Route>
             </Routes>
         </div>
       </BrowserRouter>
