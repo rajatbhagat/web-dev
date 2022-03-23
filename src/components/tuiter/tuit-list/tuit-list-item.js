@@ -18,7 +18,7 @@ const TuitListItem = ({key, tuit}) => {
                         <div className="float-start">
                         <span><strong className="text-white">{tuit.postedBy.username} {tuit.verified ? <i
                             className="fa fa-check-circle"/>: ``}</strong>
-                        <small className="text-muted">{tuit.handle}</small><small
+                        <small className="text-muted"> @{tuit.handle}</small><small
                                 className="text-muted"> . {tuit.time}</small></span>
                             <div className="float-end">
                                 <i className="fa fa-window-close text-white"/>
@@ -28,19 +28,19 @@ const TuitListItem = ({key, tuit}) => {
                     <div className="row text-white mb-2">
                         <span>{tuit.topic}</span>
                     </div>
+                    { tuit.title ?
+
+                        <div className="mt-2">
+                            <span className="text-white mt-2">{tuit.title}</span>
+                        </div> : null
+                    }
+                    <div className="mb-2">
+                        <span className="white">{tuit.tuit}</span>
+                    </div>
                     <div className="row">
                         <div>
                             <div className="wd-post-author-name-style">
                                 <TuitContentDetails tuit={tuit}/>
-                                 <div className="mt-2">
-                                     <span
-                                         className="text-white p-4 mt-2">{tuit.title}</span>
-                                 </div>
-                                 <div className="mb-2 mt-1">
-                                     <span
-                                         className="text-muted p-4">{tuit.tuit}</span>
-                                 </div>
-
                             </div>
                             <div id="icons-for-tuiter"
                                  className="wd-icons-for-tuiter row mb-4 mt-2">
