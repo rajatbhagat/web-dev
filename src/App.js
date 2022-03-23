@@ -5,7 +5,7 @@ import HelloWord from "./components/hello-world";
 import Labs from "./components/labs";
 import Tuiter from "./components/tuiter";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
-import HomeScreen from "./components/tuiter/HomeScreen/HomeScreen";
+import HomeScreen from "./components/tuiter/HomeScreen/";
 import ExploreScreen from "./components/tuiter/ExploreScreen/ExploreScreen";
 
 function App() {
