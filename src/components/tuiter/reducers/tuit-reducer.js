@@ -16,7 +16,10 @@ const tuitsReducer = (state = tuits, action) => {
                 }
             }
             return [newTuit,
-                ...tuits];
+                ...state];
+        case 'DELETE_TUIT':
+            state = state.filter(t => t._id !== action.tuit._id)
+            return state;
         default:
             return state;
     }
