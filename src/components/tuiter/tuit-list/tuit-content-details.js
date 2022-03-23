@@ -10,7 +10,7 @@ const TuitContentDetails = ({tuit}) => {
         }
         if (tuit.attachments.video !== undefined) {
             return(
-                <iframe width="560" height="315"
+                <iframe className="rounded-2" width="560" height="315"
                         src={`https://www.youtube.com/embed/${tuit.attachments.video}`} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen/>
             );
         }

@@ -25,15 +25,15 @@ const TuitListItem = ({key, tuit}) => {
                             </div>
                         </div>
                     </div>
-                    <div className="row text-white mb-2">
-                        <span>{tuit.topic}</span>
-                    </div>
-                    { tuit.title ?
+                    {/*<div className="row text-white mb-2">*/}
+                    {/*    <span>{tuit.topic}</span>*/}
+                    {/*</div>*/}
+                    {/*{ tuit.title ?*/}
 
-                        <div className="mt-2">
-                            <span className="text-white mt-2">{tuit.title}</span>
-                        </div> : null
-                    }
+                    {/*    <div className="mt-2">*/}
+                    {/*        <span className="text-white mt-2">{tuit.title}</span>*/}
+                    {/*    </div> : null*/}
+                    {/*}*/}
                     <div className="mb-2">
                         <span className="white">{tuit.tuit}</span>
                     </div>
