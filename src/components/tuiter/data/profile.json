@@ -1,15 +1,15 @@
 [
   {
-    "firstName": "Jose",
-    "lastName": "Annunziato",
-    "handle": "jannunzi",
-    "profilePicture": "jose.png",
-    "bannerPicture": "polyglot.png",
-    "bio": "Faculty, Software Engineer, AI, Space, and renewable enthusiast. Retuits and likes are not endorsements.",
-    "website": "youtube.com/webdevtv",
+    "firstName": "Rajat",
+    "lastName": "Bhagat",
+    "handle": "rajatbhgat",
+    "profilePicture": "/tuiter/images/profilePicture.png",
+    "bannerPicture": "/tuiter/images/profile_background.jpeg",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    "website": "www.google.com",
     "location": "Boston, MA",
-    "dateOfBirth": "7/7/1968",
-    "dateJoined": "4/2009",
+    "dateOfBirth": "2/11/1996",
+    "dateJoined": "9/2021",
     "followingCount": 312,
     "followersCount": 180
   }
