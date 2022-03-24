@@ -43,7 +43,12 @@ const Todos = () => {
     return(
         <>
             <h3>Todos</h3>
+            <button onClick={createTodoClickHandler}
+                    className="btn btn-primary">
+                Create New Todo
+            </button>
             <ul className="list-group">
+
                 {
                     todos.map(todo =>
                                   <li className="list-group-item">
@@ -55,14 +60,8 @@ const Todos = () => {
                                              type="checkbox"/>
                                       <input
                                           onChange={todoChangeHandler}
-                                          value={todo.do}
+                                          defaultValue={todo.do}
                                           className="form-control"/>
-
-
-                                      <button onClick={createTodoClickHandler}
-                                              className="btn btn-primary">
-                                          Create New Todo
-                                      </button>
                                       <button onClick={() =>
                                           deleteTodoClickHandler(todo)}
                                               className="btn btn-danger float-end">

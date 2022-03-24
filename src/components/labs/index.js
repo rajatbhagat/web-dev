@@ -12,10 +12,6 @@ const Index = () => {
     return (
         <>
             <h1>Labs</h1>
-            <ReduxExamples/>
-            <TodoList />
-            <ConditionalOutput/>
-            <Styles/>
             <Link to="/hello">
                 Hello
             </Link> |
@@ -25,6 +21,10 @@ const Index = () => {
             <Link to="/tuiter/explore">
                 Tuiter Explore
             </Link>
+            <ReduxExamples/>
+            <TodoList />
+            <ConditionalOutput/>
+            <Styles/>
             <Classes />
         </>
 

@@ -33,22 +33,6 @@ const WhatsHappening = () => {
                   </div>
               </div>
           </div>
-          {/*<div className="wd-occupy-all-width">*/}
-          {/*    <img src = {window.location.origin + "/tuiter/images/profilePicture.png"} className="wd-round-whats-happeneing"/>*/}
-          {/*    <textarea className=" float-end form-control bg-black wd-text-area-width" placeholder="What's Happening ?" value={whatsHappening} onChange={(event => {*/}
-          {/*        setWhatsHappening(event.target.value)*/}
-          {/*    })}/>*/}
-          {/*</div>*/}
-          {/*<div>*/}
-          {/*    <i className="fa fa-smile"/>*/}
-          {/*    <i className="fa fa-gratipay"/>*/}
-          {/*    <i className="fa fa-fingerprint"/>*/}
-          {/*    <i className="fa fa-smile"/>*/}
-          {/*</div>*/}
-          {/*<div className="float-end mb-3">*/}
-          {/*    <button className="float-end btn btn-primary text-white wd-whats-happening-button-rounded"*/}
-          {/*        onClick={onTuitButtonClickHandler}><strong>Tuit</strong></button>*/}
-          {/*</div>*/}
       </div>
     );
 }
