@@ -1,0 +1,19 @@
+.wd-round-whats-happeneing {
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+.wd-whats-happening-button-rounded {
+    border-radius: 30px;
+    width: 30%;
+}
+
+.wd-margin-right-icons {
+    margin-right: 15px;
+    color: #1DA1F2;
+}
+
+.wd-text-color {
+    color: white;
+}

@@ -8,8 +8,6 @@ const EditProfileComponent = ({profile}) => {
 
     const dispatch = useDispatch();
 
-    let flag = false;
-
     const saveChanges = () => {
         console.log(updatedProfile)
         dispatch({
