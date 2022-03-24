@@ -1,0 +1,25 @@
+.wd-profile-background {
+    width: 100%;
+    height: 300px;
+}
+
+.wd-round-profile {
+    border-radius: 75px;
+    width: 125px;
+    height: 125px;
+    border: solid 7px black;
+}
+
+.wd-profile-margin {
+    margin-top: -40px;
+    margin-left: 10px;
+}
+
+.wd-profile-name {
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+.wd-button-rounded {
+    border-radius: 30px;
+}
