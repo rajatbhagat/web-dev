@@ -2,11 +2,9 @@ import React from 'react';
 import TuitContentDetails from "./tuit-content-details";
 import './tuits.css'
 import {useDispatch} from "react-redux";
+import TuitStats from "./tuit-stats";
 
 const TuitListItem = ({key, tuit}) => {
-    let postRender = "";
-    console.log(tuit)
-
     const dispatch = useDispatch();
 
     const deleteTuit = (tuit) => {
@@ -35,15 +33,6 @@ const TuitListItem = ({key, tuit}) => {
                             </div>
                         </div>
                     </div>
-                    {/*<div className="row text-white mb-2">*/}
-                    {/*    <span>{tuit.topic}</span>*/}
-                    {/*</div>*/}
-                    {/*{ tuit.title ?*/}
-
-                    {/*    <div className="mt-2">*/}
-                    {/*        <span className="text-white mt-2">{tuit.title}</span>*/}
-                    {/*    </div> : null*/}
-                    {/*}*/}
                     <div className="mb-2">
                         <span className="white">{tuit.tuit}</span>
                     </div>
@@ -52,39 +41,7 @@ const TuitListItem = ({key, tuit}) => {
                             <div className="wd-post-author-name-style">
                                 <TuitContentDetails tuit={tuit}/>
                             </div>
-                            <div id="icons-for-tuiter"
-                                 className="wd-icons-for-tuiter row mb-4 mt-2">
-                                <div className="wd-single-icon col-3">
-                                <span>
-                                    <i className="far fa-comment text-white"/>
-                                </span>
-                                    <span
-                                        className="wd-icon-values-style wd-tuiter-icon-margin"> {tuit.stats.comments}</span>
-
-                                </div>
-                                <div className="wd-single-icon col-3">
-                                <span>
-                                    <i className="fa fa-retweet text-white"/>
-                                </span>
-                                    <span
-                                        className="wd-icon-values-style wd-tuiter-icon-margin"> {tuit.stats.retuits}</span>
-
-                                </div>
-                                <div className="wd-single-icon col-3">
-                                <span>
-                                    <i className="far fa-heart text-white" aria-hidden="true"/>
-                                </span>
-                                    <span
-                                        className="wd-icon-values-style wd-tuiter-icon-margin"> {tuit.stats.likes}</span>
-
-                                </div>
-                                <div className="col-3 ">
-                                <span>
-                                    <i className="fa fa-upload text-white"/>
-                                </span>
-
-                                </div>
-                            </div>
+                            <TuitStats tuit={tuit}/>
                         </div>
                     </div>
                 </div>
