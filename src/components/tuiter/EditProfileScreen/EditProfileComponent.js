@@ -8,7 +8,10 @@ const EditProfileComponent = ({profile}) => {
 
     const dispatch = useDispatch();
 
+    let flag = false;
+
     const saveChanges = () => {
+        console.log(updatedProfile)
         dispatch({
             type: 'UPDATE_PROFILE',
             profile: updatedProfile
@@ -21,17 +24,21 @@ const EditProfileComponent = ({profile}) => {
             updatedProfile.lastName = profile.lastName;
             return;
         }
-        let names = val.split(' ');
-        if (names.length > 1) {
-            updatedProfile.firstName = names[0];
-            updatedProfile.lastName = names[1];
-        } else {
-            updatedProfile.firstName = names[0];
+        if (val === "") {
+            updatedProfile.firstName = "";
+            updatedProfile.lastName = "";
+            return;
         }
+        let [first, last] = val.split(' ');
+        // let flag = false;
+        if (last === undefined) {
+            last = "";
+        }
+        updatedProfile.firstName = first;
+        updatedProfile.lastName = last;
     }
 
     const bioChange = (val) => {
-
         if (val === profile.bio) {
             updatedProfile.bio = profile.bio;
             return;
