@@ -4,7 +4,7 @@ import {useDispatch} from "react-redux";
 
 const EditProfileComponent = ({profile}) => {
 
-    let updatedProfile = [profile];
+    let updatedProfile = profile;
 
     const dispatch = useDispatch();
 
@@ -16,7 +16,9 @@ const EditProfileComponent = ({profile}) => {
     }
 
     const nameFieldChange = (val) => {
-        if (val === "") {
+        if (val === profile.firstName + " " + profile.lastName) {
+            updatedProfile.firstName = profile.firstName;
+            updatedProfile.lastName = profile.lastName;
             return;
         }
         let names = val.split(' ');
@@ -29,29 +31,33 @@ const EditProfileComponent = ({profile}) => {
     }
 
     const bioChange = (val) => {
-        console.log(val);
-        if (val === "") {
+
+        if (val === profile.bio) {
+            updatedProfile.bio = profile.bio;
             return;
         }
         updatedProfile.bio = val;
     }
 
     const locationChange = (val) => {
-        if (val === "") {
+        if (val === profile.location) {
+            updatedProfile.location = profile.location;
             return;
         }
         updatedProfile.location = val;
     }
 
     const dateOfBirthChange = (val) => {
-        if (val === "") {
+        if (val === profile.dateOfBirth) {
+            updatedProfile.dateOfBirth = profile.dateOfBirth;
             return;
         }
         updatedProfile.dateOfBirth = val;
     }
 
     const websiteChange = (val) => {
-        if (val === "") {
+        if (val === profile.website) {
+            updatedProfile.website = profile.website;
             return;
         }
         updatedProfile.website = val;
