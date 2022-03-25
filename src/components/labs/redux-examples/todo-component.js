@@ -55,20 +55,20 @@ const Todos = () => {
 
                     {
                         todos.map(todo =>
-                                      <li className="list-group-item">
-                                          <input checked={todo.done}
-                                                 onChange={(event) =>
-                                                     updateTodoClickHandler(
-                                                         {...todo,
-                                                             done: event.target.checked})}
-                                                 type="checkbox"/>
-                                          {todo.do}
-                                          <button onClick={() =>
-                                              deleteTodoClickHandler(todo)}
-                                                  className="btn btn-danger float-end">
-                                              Delete
-                                          </button>
-                                      </li>
+                              <li className="list-group-item">
+                                  <input checked={todo.done}
+                                         onChange={(event) =>
+                                             updateTodoClickHandler(
+                                                 {...todo,
+                                                     done: event.target.checked})}
+                                         type="checkbox"/>
+                                  {todo.do}
+                                  <button onClick={() =>
+                                      deleteTodoClickHandler(todo)}
+                                          className="btn btn-danger float-end">
+                                      Delete
+                                  </button>
+                              </li>
                         )
                     }
                 </ul>
