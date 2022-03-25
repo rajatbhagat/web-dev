@@ -43,34 +43,36 @@ const Todos = () => {
     return(
         <>
             <h3>Todos</h3>
-            <button onClick={createTodoClickHandler}
-                    className="btn btn-primary">
-                Create New Todo
-            </button>
-            <ul className="list-group">
+            <div>
+                <input
+                    onChange={todoChangeHandler}
+                    className="form-control"/>
+                <button onClick={createTodoClickHandler}
+                        className="btn btn-primary">
+                    Create New To-Do
+                </button>
+                <ul className="list-group">
 
-                {
-                    todos.map(todo =>
-                                  <li className="list-group-item">
-                                      <input checked={todo.done}
-                                             onChange={(event) =>
-                                                 updateTodoClickHandler(
-                                                     {...todo,
-                                                         done: event.target.checked})}
-                                             type="checkbox"/>
-                                      <input
-                                          onChange={todoChangeHandler}
-                                          defaultValue={todo.do}
-                                          className="form-control"/>
-                                      <button onClick={() =>
-                                          deleteTodoClickHandler(todo)}
-                                              className="btn btn-danger float-end">
-                                          Delete
-                                      </button>
-                                  </li>
-                    )
-                }
-            </ul>
+                    {
+                        todos.map(todo =>
+                                      <li className="list-group-item">
+                                          <input checked={todo.done}
+                                                 onChange={(event) =>
+                                                     updateTodoClickHandler(
+                                                         {...todo,
+                                                             done: event.target.checked})}
+                                                 type="checkbox"/>
+                                          {todo.do}
+                                          <button onClick={() =>
+                                              deleteTodoClickHandler(todo)}
+                                                  className="btn btn-danger float-end">
+                                              Delete
+                                          </button>
+                                      </li>
+                        )
+                    }
+                </ul>
+            </div>
         </>
     );
 };
