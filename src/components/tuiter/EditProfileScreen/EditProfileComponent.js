@@ -4,12 +4,11 @@ import {useDispatch} from "react-redux";
 
 const EditProfileComponent = ({profile}) => {
 
-    let updatedProfile = profile;
+    let updatedProfile = JSON.parse(JSON.stringify(profile));
 
     const dispatch = useDispatch();
 
     const saveChanges = () => {
-        console.log(updatedProfile)
         dispatch({
             type: 'UPDATE_PROFILE',
             profile: updatedProfile
@@ -28,7 +27,6 @@ const EditProfileComponent = ({profile}) => {
             return;
         }
         let [first, last] = val.split(' ');
-        // let flag = false;
         if (last === undefined) {
             last = "";
         }
@@ -68,11 +66,15 @@ const EditProfileComponent = ({profile}) => {
         updatedProfile.website = val;
     }
 
+    const revertChanges = () => {
+        updatedProfile = profile;
+    }
+
     return (
     <>
         <div className="row mt-2">
             <div className="float-start text-white">
-                <Link to="/tuiter/profile"><i className="fa fa-window-close text-white"/></Link>
+                <Link to="/tuiter/profile"><i className="fa fa-window-close text-white" onClick={revertChanges}/></Link>
                 <span className="mx-2"><strong>Edit Profile</strong></span>
                 <div className="float-end">
                     <Link to="/tuiter/profile"><button onClick={saveChanges} className="btn bg-white text-black  wd-button-rounded">
