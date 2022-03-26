@@ -7,8 +7,10 @@ const tuitsReducer = (state = tuits, action) => {
                 tuit: action.tuit,
                 _id: (new Date()).getTime() + '',
                 postedBy: {
-                    "username": "ReactJS"
+                    "username": "Rajat Bhagat"
                 },
+                handle: "rajatbhagat",
+                logoImage: "/tuiter/images/profilePicture.png",
                 stats: {
                     retuits: 111,
                     likes: 222,
