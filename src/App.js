@@ -18,7 +18,7 @@ function App() {
                 <Route path="/" element={<Labs/>}/>
                 <Route path="/hello" element={<HelloWord />}/>
                 <Route path="/tuiter" element={<Tuiter />}>
-                    <Route path="home" element={<HomeScreen />}/>
+                    <Route index element={<HomeScreen />}/>
                     <Route path="explore" element={<ExploreScreen/>}/>
                     <Route path="profile" element={<ProfileScreen />}/>
                     <Route path="editprofile" element={<EditProfileScreen />}/>
