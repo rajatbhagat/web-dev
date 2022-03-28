@@ -91,44 +91,44 @@ const EditProfileComponent = ({profile}) => {
             </div>
             <div className="wd-input-field-border mx-3">
                 <div className="mt-1" >
-                    <label className="text-muted">Name</label>
+                    <label htmlFor="name" className="text-muted">Name</label>
                 </div>
                 <div className="mb-2">
-                    <input className="form-control bg-black text-white" type="text" defaultValue={`${profile.firstName} ${profile.lastName} `} onChange={(event) => {
+                    <input id="name" className="form-control bg-black text-white" type="text" defaultValue={`${profile.firstName} ${profile.lastName} `} onChange={(event) => {
                         nameFieldChange(event.target.value);
                     }}/>
                 </div>
             </div>
             <div className="wd-input-field-border mx-3 mt-2">
                 <div className="mt-1" >
-                    <label className="text-muted">Bio</label>
+                    <label htmlFor="bio" className="text-muted">Bio</label>
                 </div>
                 <div className="mb-2">
-                    <textarea className="form-control bg-black text-white" defaultValue={profile.bio} onChange={(event) => {bioChange(event.target.value)}}/>
+                    <textarea id="bio" className="form-control bg-black text-white" defaultValue={profile.bio} onChange={(event) => {bioChange(event.target.value)}}/>
                 </div>
             </div>
             <div className="wd-input-field-border mx-3 mt-2">
                 <div className="mt-1" >
-                    <label className="text-muted">Location</label>
+                    <label htmlFor="location" className="text-muted">Location</label>
                 </div>
                 <div className="mb-2">
-                    <input className="form-control bg-black text-white" type="text" defaultValue={profile.location} onChange={(event) => {locationChange(event.target.value)}}/>
+                    <input id="location" className="form-control bg-black text-white" type="text" defaultValue={profile.location} onChange={(event) => {locationChange(event.target.value)}}/>
                 </div>
             </div>
             <div className="wd-input-field-border mx-3 mt-2">
                 <div className="mt-1" >
-                    <label className="text-muted">Date of Birth</label>
+                    <label htmlFor="dob" className="text-muted">Date of Birth</label>
                 </div>
                 <div className="mb-2">
-                    <input className="form-control bg-black text-white" type="date" defaultValue={profile.dateOfBirth} onChange={(event) => {dateOfBirthChange(event.target.value)}}/>
+                    <input id="dob" className="form-control bg-black text-white" type="date" defaultValue={profile.dateOfBirth} onChange={(event) => {dateOfBirthChange(event.target.value)}}/>
                 </div>
             </div>
             <div className="wd-input-field-border mx-3 mt-2">
                 <div className="mt-1" >
-                    <label className="text-muted">Website</label>
+                    <label htmlFor="website" className="text-muted">Website</label>
                 </div>
                 <div className="mb-2">
-                    <input className="form-control bg-black text-white" type="text" defaultValue={profile.website} onChange={(event) => {websiteChange(event.target.value)}}/>
+                    <input id="website" className="form-control bg-black text-white" type="text" defaultValue={profile.website} onChange={(event) => {websiteChange(event.target.value)}}/>
                 </div>
             </div>
         </div>
