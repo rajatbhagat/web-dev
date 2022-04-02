@@ -1,16 +1,9 @@
 import React from 'react';
 import {useDispatch} from "react-redux";
+import {updateTuit} from "../actions/tuits-actions";
 
 const TuitStats = ({tuit}) => {
     const dispatch = useDispatch();
-
-    const likeTuit = (tuit) => {
-        dispatch({
-             type: 'LIKE_TUIT',
-             tuit: tuit
-         });
-    }
-
     return (
         <div id="icons-for-tuiter"
              className="wd-icons-for-tuiter row mb-4 mt-2">
@@ -30,10 +23,14 @@ const TuitStats = ({tuit}) => {
                     className="wd-icon-values-style wd-tuiter-icon-margin"> {tuit.stats.retuits}</span>
 
             </div>
-            <div className="wd-single-icon col-3" onClick={() => {likeTuit(tuit)}}>
+            <div className="wd-single-icon col-3" onClick={() => {
+                                                                const newTuit = tuit;
+                                                                newTuit.stats.likes = newTuit.stats.likes + 1
+                                                                updateTuit(dispatch, newTuit)
+                                                            }}>
                                 <span>
-                                    { tuit.liked ? <i className="fa fa-heart" style={{color: 'red'}} aria-hidden="true"/> :
-                                      <i className="far fa-heart text-white " aria-hidden="true"/>}
+                                    { tuit.liked ? <i className="far fa-thumbs-up ms-2" style={{color: 'red'}} aria-hidden="true"/> :
+                                      <i className="far fa-thumbs-up ms-2 text-white " aria-hidden="true"/>}
                                 </span>
                 <span
                     className="wd-icon-values-style wd-tuiter-icon-margin"> {tuit.stats.likes}</span>

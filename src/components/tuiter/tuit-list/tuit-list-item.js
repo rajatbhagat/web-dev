@@ -3,16 +3,17 @@ import TuitContentDetails from "./tuit-content-details";
 import './tuits.css'
 import {useDispatch} from "react-redux";
 import TuitStats from "./tuit-stats";
+import {deleteTuit} from "../actions/tuits-actions.js";
 
 const TuitListItem = ({key, tuit}) => {
     const dispatch = useDispatch();
 
-    const deleteTuit = (tuit) => {
-        dispatch({
-            type: 'DELETE_TUIT',
-            tuit: tuit
-        });
-    }
+    // const deleteTuit = (tuit) => {
+    //     dispatch({
+    //         type: 'DELETE_TUIT',
+    //         tuit: tuit
+    //     });
+    // }
 
     return(
         <div className="list-group-item">
@@ -29,7 +30,7 @@ const TuitListItem = ({key, tuit}) => {
                         <small className="text-muted"> @{tuit.handle}</small><small
                                 className="text-muted"> . {tuit.time}</small></span>
                             <div className="float-end">
-                                <i className="fa fa-window-close text-white" onClick={() => {deleteTuit(tuit)}}/>
+                                <i className="fa fa-window-close text-white" onClick={() => {deleteTuit(dispatch, tuit)}}/>
                             </div>
                         </div>
                     </div>
