@@ -5,7 +5,7 @@ import {FIND_ALL_TUITS} from "../actions/tuits-actions";
 const tuitsReducer = (state = [], action) => {
     switch (action.type) {
         case FIND_ALL_TUITS:
-            return action.tuit;
+            return action.tuits;
         case 'CREATE_TUIT':
             const newTuit = {
                 tuit: action.tuit,
