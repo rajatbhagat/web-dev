@@ -7,7 +7,7 @@ import {findAllTuits} from "../actions/tuits-actions.js";
 
 const TuitList = () => {
     const tuits = useSelector(state => state.tuits);
-    console.log(tuits);
+    // console.log(tuits);
     const dispatch = useDispatch();
     useEffect(() => {
         findAllTuits(dispatch)

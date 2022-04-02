@@ -8,13 +8,6 @@ import {deleteTuit} from "../actions/tuits-actions.js";
 const TuitListItem = ({key, tuit}) => {
     const dispatch = useDispatch();
 
-    // const deleteTuit = (tuit) => {
-    //     dispatch({
-    //         type: 'DELETE_TUIT',
-    //         tuit: tuit
-    //     });
-    // }
-
     return(
         <div className="list-group-item">
             <div className="row wd-row-style mt-3">
