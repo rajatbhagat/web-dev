@@ -15,7 +15,8 @@ const WhatsHappening = () => {
         stats: {
             retuits: 111,
             likes: 222,
-            replies: 333
+            replies: 333,
+            dislikes: 10
         }
     }
     const [newTuit, setNewTuit] = useState({tuit: 'New tuit', ...defaultTuit});
