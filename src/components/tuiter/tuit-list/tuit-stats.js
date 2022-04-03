@@ -47,10 +47,10 @@ const TuitStats = ({tuit}) => {
                 const newTuit = tuit;
                 if (tuit.disliked) {
                     newTuit.disliked = false;
-                    newTuit.stats.dislikes = newTuit.stats.dislikes + 1
+                    newTuit.stats.dislikes = newTuit.stats.dislikes - 1
                 } else {
                     newTuit.disliked = true
-                    newTuit.stats.dislikes = newTuit.stats.dislikes - 1
+                    newTuit.stats.dislikes = newTuit.stats.dislikes + 1
                 }
                 // console.log(newTuit);
                 updateTuit(dispatch, newTuit)
